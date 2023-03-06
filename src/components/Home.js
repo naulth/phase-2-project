@@ -1,8 +1,15 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import BooksPage from './BooksPage'
+
 
 function Home() {
+
+    useEffect(() => {
+        fetch('')
+    },[])
     return(
         <div>
+            
             <div>
                 <h1>The Science-Fiction and Fantasy Database</h1>
             </div>
@@ -13,6 +20,7 @@ function Home() {
             <div>
                 <p>Authors: Hayden Nault & Jesse Hunter & Katelynn Morris</p>
             </div>
+            <BooksPage />
         </div>
     )
 }
