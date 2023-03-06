@@ -1,14 +1,14 @@
+import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 function Cards(){
     return (
-        <Card style={{ width: '18rem' }} bg= 'Dark' border= 'Light'>
-            <Card.Img variant="top" src/>
+        <Card style={{width: '18rem'}} className='bg-dark border-light' >
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>Card Text</Card.Text>
-                <Button variant="primary">Details</Button>
+                <Button variant='light'>Details</Button>
             </Card.Body>
         </Card>
     );
