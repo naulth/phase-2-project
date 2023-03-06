@@ -1,11 +1,12 @@
 import '../App.css';
 import Home from "./Home"
+import Cards from './Card';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello World</h1>
+        <Cards />
         <Home />
       </header>
     </div>
