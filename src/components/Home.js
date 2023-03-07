@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import BooksPage from './BooksPage'
+import TheNavBar from "./NavBar"
+import MoviesPage from "./MoviesPage"
 
 
 function Home() {
@@ -7,15 +9,24 @@ function Home() {
     const [booksArray, setBooksArray] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:3000/Movies')
+        fetch('http://localhost:3000/Books')
             .then(r => r.json())
             .then(setBooksArray)
     },[])
 
+    const [moviesArray, setMoviesArray] = useState([])
+
+    useEffect(() => {
+        fetch('http://localhost:3000/Movies')
+            .then(r => r.json())
+            .then(setMoviesArray)
+    },[])
+
         
     return(
+        
         <div>
-            
+            <TheNavBar/>
             <div>
                 <h1>The Science-Fiction and Fantasy Database</h1>
             </div>
@@ -27,6 +38,7 @@ function Home() {
                 <p>Authors: Hayden Nault & Jesse Hunter & Katelynn Morris</p>
             </div>
             <BooksPage booksArray={booksArray}/>
+            <MoviesPage moviesArray={moviesArray}/>
         </div>
     )
 }
