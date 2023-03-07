@@ -1,40 +1,12 @@
-import React, {useState, useEffect} from 'react'
-import BooksPage from './BooksPage'
-import TheNavBar from "./NavBar"
-import MoviesPage from "./MoviesPage"
+import React from 'react'
+
 
 
 function Home() {
 
-    const [booksArray, setBooksArray] = useState([])
-
-    useEffect(() => {
-        fetch('http://localhost:3000/Books')
-            .then(r => r.json())
-            .then(setBooksArray)
-    },[])
-
-    const [moviesArray, setMoviesArray] = useState([])
-
-    useEffect(() => {
-        fetch('http://localhost:3000/Movies')
-            .then(r => r.json())
-            .then(setMoviesArray)
-    },[])
-
-    const addMovie = (newMovieObj) => {
-        setMoviesArray([...moviesArray, newMovieObj])
-    }
-
-    const addBook = (newBookObj) => {
-        setBooksArray([...booksArray, newBookObj])
-    }
-
-        
     return(
         
         <div>
-            <TheNavBar/>
             <div>
                 <h1>The Science-Fiction and Fantasy Database</h1>
             </div>
@@ -45,8 +17,6 @@ function Home() {
             <div>
                 <p>Authors: Hayden Nault & Jesse Hunter & Katelynn Morris</p>
             </div>
-            <BooksPage addBook={addBook} booksArray={booksArray}/>
-            <MoviesPage addMovie={addMovie} moviesArray={moviesArray}/>
         </div>
     )
 }
