@@ -10,7 +10,7 @@ function BooksPage({booksArray, addBook}){
 
     return(
         <main>
-            <div>
+            <div className="bookdiv">
                 <h2>Science-Fiction and Fantasy Books</h2>
                 <AddBookForm addBook={addBook}/>
             </div>

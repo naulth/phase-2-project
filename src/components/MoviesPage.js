@@ -11,7 +11,7 @@ function MoviesPage({moviesArray, addMovie}){
 
     return(
         <main>
-            <div>
+            <div className="moviediv">
                 <h2>Science-Fiction and Fantasy Movies</h2>
                 <AddMovieForm addMovie={addMovie}/>
             </div>

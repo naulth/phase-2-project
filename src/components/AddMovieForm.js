@@ -40,13 +40,13 @@ function AddMovieForm({addMovie}) {
     }
 
     return(
-      <Form onSubmit={handleSubmit}>
+      <Form className="addForm" onSubmit={handleSubmit}>
           <Form.Control onChange={handleName} type="text" name="name" placeholder="Name"/>
           <Form.Control onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
           <Form.Control onChange={handleDirector} type="text" name="director" placeholder="Director" />
           <Form.Control onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>
           <Form.Control onChange={handleRef} type="text" name="ref" placeholder="Reference URL"/>
-        <Button type="submit">
+        <Button className="add-button" type="submit">
           Add A Movie
         </Button>
       </Form>

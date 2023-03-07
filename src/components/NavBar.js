@@ -8,18 +8,11 @@ import '../index.css';
 function TheNavBar() {
 
     return(
-        <Navbar expand="lg" sticky="top" bg='dark' variant='dark'>
-            <Container>
-                <Navbar.Brand>
-                    The Science-Fiction and Fantasy Database
-                </Navbar.Brand>
-                <Nav className='me-auto'>
-                    <NavLink exact to = "./">Home</NavLink>
-                    <NavLink to = "/books">Books</NavLink>
-                    <NavLink to = "/movies">Movies</NavLink>
-                </Nav>
-            </Container>
-        </Navbar>
+                <nav className='me-auto'>
+                    <NavLink className="NavLink" exact to = "./">Home</NavLink>
+                    <NavLink className="NavLink" to = "/books">Books</NavLink>
+                    <NavLink className="NavLink" to = "/movies">Movies</NavLink>
+                </nav>
     )
 }
 export default TheNavBar

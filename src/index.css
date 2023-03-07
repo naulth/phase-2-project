@@ -13,8 +13,11 @@ code {
 }
 
 h2 {
+  color:black;
   font-size: 50px;
   text-align: left;
+  padding-left: 50px;
+  padding-bottom:50px;
 }
 
 form {
@@ -27,3 +30,76 @@ form {
   align-content: bottom;
 }
 
+.NavLink {
+  padding-left:30px;
+  padding-right:30px;
+  color:White;
+  text-decoration: none;
+  
+}
+
+.NavLink:hover {
+  color:red;
+}
+
+nav {
+ position:fixed;
+ top: 0;
+ background-color:darkslategray;
+ width: 100%;
+ padding-bottom:50px;
+ padding-top:30px;
+}
+
+.moviediv{
+
+  width: 100%;
+}
+
+h1{
+  color:darkslategray;
+  text-align: left;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+.aboutdiv {
+  
+  text-align: left;
+  margin-left: 50px;
+  padding-top: 100px;
+  max-width:50%;
+}
+
+p.abouttext{
+  color:black;
+  font-size: 20px;
+}
+
+p.authors{
+  color:black;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 50px;
+  padding-top:100px;
+
+}
+
+.add-button {
+  background-color:darkslategray;
+  border-color:black;
+  border-width: 2px;
+  box-shadow: 0px 0px 7px black;
+  border-radius: 8px;
+}
+
+.addForm {
+  margin-left: 50px;
+  padding-bottom: 100px;
+  background-color: #fdfbfbf6;
+}
+
+.bookdiv{
+
+  width: 100%;
+}

@@ -1,4 +1,7 @@
 import React, {useState} from "react"
+import '../index.css'
+import Button from 'react-bootstrap/Button'
+import Form from 'react-bootstrap/Form'
 
 function AddBookForm({addBook}) {
 
@@ -35,18 +38,18 @@ function AddBookForm({addBook}) {
     }
 
     return(
-      <form onSubmit={handleSubmit}>
+      <Form className="addForm" onSubmit={handleSubmit}>
         <div>
-          <input onChange={handleName} type="text" name="name" placeholder="Name"/>
-          <input onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
-          <input onChange={handleAuthor} type="text" name="author" placeholder="Author" />
-          <input onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>
-          <input onChange={handleRef} type="text" name="ref" placeholder="Reference URL"/>
+          <Form.Control onChange={handleName} type="text" name="name" placeholder="Name"/>
+          <Form.Control onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
+          <Form.Control onChange={handleAuthor} type="text" name="author" placeholder="Author" />
+          <Form.Control onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>
+          <Form.Control onChange={handleRef} type="text" name="ref" placeholder="Reference URL"/>
         </div>
-        <button type="submit">
+        <Button className="add-button" type="submit">
           Add A Book
-        </button>
-      </form>
+        </Button>
+      </Form>
     )
 }
 export default AddBookForm
