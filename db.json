@@ -1,5 +1,5 @@
 {
-  "Books": [
+  "books": [
     {
       "id": 1,
       "name": "Harry Potter and the Sorcerer's stone",
@@ -45,7 +45,7 @@
       "id": 5
     }
   ],
-  "Movies": [
+  "movies": [
     {
       "id": 1,
       "name": "Labyrinth",

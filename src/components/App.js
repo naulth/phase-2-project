@@ -12,7 +12,7 @@ function App() {
   const [booksArray, setBooksArray] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:3000/Books')
+        fetch('http://localhost:3000/books')
             .then(r => r.json())
             .then(setBooksArray)
     },[])
@@ -20,7 +20,7 @@ function App() {
     const [moviesArray, setMoviesArray] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:3000/Movies')
+        fetch('http://localhost:3000/movies')
             .then(r => r.json())
             .then(setMoviesArray)
     },[])
