@@ -20,3 +20,10 @@ h2 {
 form {
   max-width: 40%;
 }
+
+.photophoto{
+  height: 250px;
+  width: auto;
+  align-content: bottom;
+}
+
