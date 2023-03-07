@@ -2,12 +2,12 @@
     "Books": [
         {
             "id": 1,
-            "name": "",
-            "thumbnail": "",
+            "name": "Harry Potter and the Sorcerer's stone",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6b/Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg?20191031103457",
             "image": "",
-            "author": "",
-            "summary": "",
-            "ref":""
+            "author": "J.K. Rowling",
+            "summary": "Harry Potter has no idea how famous he is. That's because he's being raised by his miserable aunt and uncle who are terrified Harry will learn that he's really a wizard, just as his parents were. But everything changes when Harry is summoned to attend an infamous school for wizards, and he begins to discover some clues about his illustrious birthright. From the surprising way he is greeted by a lovable giant, to the unique curriculum and colorful faculty at his unusual school, Harry finds himself drawn deep inside a mystical world he never knew existed and closer to his own noble destiny.",
+            "ref":"https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Rowling/dp/059035342X"
         }
     ],
 
@@ -36,8 +36,8 @@
             "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d0/Lord_of_the_Rings_-_The_Two_Towers_%282002%29.jpg",
             "image": "",
             "director": "Peter Jackson",
-            "summary": "",
-            "ref": ""
+            "summary": "In the second part of the Tolkien trilogy, Frodo Baggins and the other members of the Fellowship continue on their sacred quest to destroy the One Ring--but on separate paths.",
+            "ref": "https://www.amazon.com/gp/video/detail/B0037WP83M/ref=atv_dp_share_cu_r"
         },
         {
             "id": 4,
