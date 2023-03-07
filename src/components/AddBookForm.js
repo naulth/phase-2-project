@@ -41,7 +41,7 @@ function AddBookForm({addBook}) {
           <input onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
           <input onChange={handleAuthor} type="text" name="author" placeholder="Author" />
           <input onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>
-          <input onChange={handleRef} type="text" name="ref" placeholder="Referance URL"/>
+          <input onChange={handleRef} type="text" name="ref" placeholder="Reference URL"/>
         </div>
         <button type="submit">
           Add A Book

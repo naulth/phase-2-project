@@ -1,6 +1,11 @@
 import React, {useState} from "react"
+import Button from 'react-bootstrap/Button'
+import Form from 'react-bootstrap/Form'
+import '../index.css'
 
 function AddMovieForm({addMovie}) {
+
+
 
     const [name, setName] = useState('')
     const [thumbnail, setThumbnail] = useState('')
@@ -35,18 +40,16 @@ function AddMovieForm({addMovie}) {
     }
 
     return(
-      <form onSubmit={handleSubmit}>
-        <div>
-          <input onChange={handleName} type="text" name="name" placeholder="Name"/>
-          <input onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
-          <input onChange={handleDirector} type="text" name="director" placeholder="Director" />
-          <input onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>
-          <input onChange={handleRef} type="text" name="ref" placeholder="Referance URL"/>
-        </div>
-        <button type="submit">
+      <Form onSubmit={handleSubmit}>
+          <Form.Control onChange={handleName} type="text" name="name" placeholder="Name"/>
+          <Form.Control onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
+          <Form.Control onChange={handleDirector} type="text" name="director" placeholder="Director" />
+          <Form.Control onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>
+          <Form.Control onChange={handleRef} type="text" name="ref" placeholder="Reference URL"/>
+        <Button type="submit">
           Add A Movie
-        </button>
-      </form>
+        </Button>
+      </Form>
     )
 }
 export default AddMovieForm

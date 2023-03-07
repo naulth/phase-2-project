@@ -2,6 +2,7 @@ import React from 'react'
 import MovieCards from './MovieCard'
 import CardGroup from 'react-bootstrap/CardGroup'
 import AddMovieForm from './AddMovieForm.js'
+import '../index.css';
 
 
 function MoviesPage({moviesArray, addMovie}){

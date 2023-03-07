@@ -7,7 +7,7 @@ import {NavLink} from 'react-router-dom'
 function TheNavBar() {
 
     return(
-        <Navbar expand="sm" sticky="top" bg='dark' variant='dark'>
+        <Navbar expand="lg" sticky="top" bg='dark' variant='dark'>
             <Container>
                 <Navbar.Brand>
                     The Science-Fiction and Fantasy Database
