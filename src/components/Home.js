@@ -1,12 +1,18 @@
-import React, {useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 import BooksPage from './BooksPage'
 
 
 function Home() {
 
+    const [booksArray, setBooksArray] = useState([])
+
     useEffect(() => {
-        fetch('')
+        fetch('http://localhost:3000/Movies')
+            .then(r => r.json())
+            .then(setBooksArray)
     },[])
+
+        
     return(
         <div>
             
@@ -20,7 +26,7 @@ function Home() {
             <div>
                 <p>Authors: Hayden Nault & Jesse Hunter & Katelynn Morris</p>
             </div>
-            <BooksPage />
+            <BooksPage booksArray={booksArray}/>
         </div>
     )
 }

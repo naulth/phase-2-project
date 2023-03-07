@@ -2,11 +2,11 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function Cards(){
+function BookCards({bookName}){
     return (
         <Card style={{width: '18rem'}} className='bg-dark border-light' >
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>{bookName}</Card.Title>
                 <Card.Text>Card Text</Card.Text>
                 <Button variant='light'>Details</Button>
             </Card.Body>
@@ -14,5 +14,5 @@ function Cards(){
     );
 }
 
-export default Cards;
+export default BookCards;
 
