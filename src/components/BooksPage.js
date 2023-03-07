@@ -4,7 +4,7 @@ import CardGroup from 'react-bootstrap/CardGroup'
 import AddBookForm from './AddBookForm'
 
 
-function BooksPage({booksArray}){
+function BooksPage({booksArray, addBook}){
     
     const booksComponents = booksArray.map(book => <BookCards key={book.id} bookName={book.name} bookImg={book.thumbnail}/>)
 
@@ -12,7 +12,7 @@ function BooksPage({booksArray}){
         <main>
             <div>
                 <h2>Science-Fiction and Fantasy Books</h2>
-                <AddBookForm/>
+                <AddBookForm addBook={addBook}/>
             </div>
             <div>
                 <CardGroup>

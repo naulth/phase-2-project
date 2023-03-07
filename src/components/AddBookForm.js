@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react"
 
-function AddBookForm() {
+function AddBookForm({addBook}) {
 
     const [title, setTitle] = useState('')
     const [thumbnail, setThumbnail] = useState('')
@@ -24,6 +24,14 @@ function AddBookForm() {
             summary: summary,
             ref: ref
         }
+
+        addBook(newBook)
+
+        fetch('http://localhost:3000/books', {
+      method: "POST",
+      headers: {'Content-Type' : 'application/json'},
+      body: JSON.stringify(newBook)
+    })
     }
 
     return(
