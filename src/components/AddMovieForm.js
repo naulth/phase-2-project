@@ -1,14 +1,14 @@
 import React, {useState, useEffect} from "react"
 
-function AddMovieForm() {
+function AddMovieForm({addMovie}) {
 
-    const [title, setTitle] = useState('')
+    const [name, setName] = useState('')
     const [thumbnail, setThumbnail] = useState('')
     const [director, setDirector] = useState('')
     const [summary, setSummary] = useState('')
     const [ref, setRef] = useState('')
 
-    const handleTitle = (e) => {setTitle(e.target.value)}
+    const handleName = (e) => {setName(e.target.value)}
     const handleThumbnail = (e) => {setThumbnail(e.target.value)}
     const handleDirector = (e) => {setDirector(e.target.value)}
     const handleSummary = (e) => {setSummary(e.target.value)}
@@ -18,18 +18,26 @@ function AddMovieForm() {
         e.preventDefault()
     
         const newMovie ={
-            title: title,
+            name: name,
             thumbnail: thumbnail,
             author: director,
             summary: summary,
             ref: ref
         }
+
+        addMovie(newMovie)
+
+        fetch('http://localhost:3000/movies', {
+      method: "POST",
+      headers: {'Content-Type' : 'application/json'},
+      body: JSON.stringify(newMovie)
+    })
     }
 
     return(
       <form onSubmit={handleSubmit}>
         <div>
-          <input onChange={handleTitle} type="text" name="title" placeholder="Title"/>
+          <input onChange={handleName} type="text" name="name" placeholder="Name"/>
           <input onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
           <input onChange={handleDirector} type="text" name="director" placeholder="Director" />
           <input onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>

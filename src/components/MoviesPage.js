@@ -1,18 +1,18 @@
 import React from 'react'
-import BookCards from './BookCard'
+import MovieCards from './MovieCard'
 import CardGroup from 'react-bootstrap/CardGroup'
 import AddMovieForm from './AddMovieForm.js'
 
 
-function MoviesPage({moviesArray}){
+function MoviesPage({moviesArray, addMovie}){
     
-    const moviesComponents = moviesArray.map(movie => <BookCards key={movie.id} bookName={movie.name} bookImg={movie.thumbnail}/>)
+    const moviesComponents = moviesArray.map(movie => <MovieCards key={movie.id} movieName={movie.name} movieImg={movie.thumbnail}/>)
 
     return(
         <main>
             <div>
                 <h2>Science-Fiction and Fantasy Movies</h2>
-                <AddMovieForm/>
+                <AddMovieForm addMovie={addMovie}/>
             </div>
             <div>
                 <CardGroup>

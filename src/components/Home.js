@@ -22,6 +22,10 @@ function Home() {
             .then(setMoviesArray)
     },[])
 
+    const addMovie = (newMovieObj) => {
+        setMoviesArray([...moviesArray, newMovieObj])
+    }
+
         
     return(
         
@@ -38,7 +42,7 @@ function Home() {
                 <p>Authors: Hayden Nault & Jesse Hunter & Katelynn Morris</p>
             </div>
             <BooksPage booksArray={booksArray}/>
-            <MoviesPage moviesArray={moviesArray}/>
+            <MoviesPage addMovie={addMovie} moviesArray={moviesArray}/>
         </div>
     )
 }
