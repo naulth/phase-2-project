@@ -3,7 +3,7 @@ import '../index.css'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 
-function AddBookForm({addBook}) {
+function AddBookForm({addBook, handleHideBookForm}) {
 
     const [name, setName] = useState('')
     const [thumbnail, setThumbnail] = useState('')
@@ -31,10 +31,18 @@ function AddBookForm({addBook}) {
         addBook(newBook)
 
         fetch('http://localhost:3000/books', {
-      method: "POST",
-      headers: {'Content-Type' : 'application/json'},
-      body: JSON.stringify(newBook)
-    })
+        method: "POST",
+        headers: {'Content-Type' : 'application/json'},
+        body: JSON.stringify(newBook)
+        })
+
+        setName('')
+        setThumbnail('')
+        setAuthor('')
+        setSummary('')
+        setRef('')
+
+        handleHideBookForm()
     }
 
     return(

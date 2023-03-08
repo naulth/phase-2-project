@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import '../index.css'
 
-function AddMovieForm({addMovie}) {
+function AddMovieForm({addMovie, handleHideMovieForm}) {
 
 
 
@@ -33,10 +33,18 @@ function AddMovieForm({addMovie}) {
         addMovie(newMovie)
 
         fetch('http://localhost:3000/movies', {
-      method: "POST",
-      headers: {'Content-Type' : 'application/json'},
-      body: JSON.stringify(newMovie)
-    })
+            method: "POST",
+            headers: {'Content-Type' : 'application/json'},
+            body: JSON.stringify(newMovie)
+        })
+
+        setName('')
+        setThumbnail('')
+        setDirector('')
+        setSummary('')
+        setRef('')
+
+        handleHideMovieForm()
     }
 
     return(
