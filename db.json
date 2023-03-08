@@ -127,6 +127,42 @@
       "summary": "The Best One",
       "ref": "https://www.amazon.com/gp/video/detail/B00VF19CBQ/ref=atv_dp_share_cu_r",
       "id": 6
+    },
+    {
+      "name": "The Fifth Element",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnHxC5rmn9c0DyXM5htwUrAuc5YRfclpFNVggYfpyHuGADDvpX",
+      "keyword": "Multi-pass, Bruce Willis, Milla Jovovich, Chris Tucker",
+      "director": "Luc Besson",
+      "summary": "Bruce Willis stars as Korben Dallas, a cab driver turned unlikely hero in this story about love and survival set in the 23rd century from writer-director Luc Besson. The dark force threatens humanity, and Korben and his new friend Leeloo must stop it.",
+      "ref": "https://www.amazon.com/gp/video/detail/B000S6BKSC/ref=atv_dp_share_cu_r",
+      "id": 7
+    },
+    {
+      "name": "The Princess Bride",
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSWcSl0pgMNJmy5MIP1jOrhVarb7GyOeJ8lx_mPMJuXCXuWqrqA",
+      "keyword": "As you wish, Inigo Montoya, Dread Pirate Robert, Cary Elwes, Robin Wright",
+      "director": "Rob Reiner",
+      "summary": "You've yet to hear the tale? Inconceivable! Join Westley (Carey Elwes) on his epic adventure to rescue the fair Buttercup (Robin Wright) from the clutches of the evil Prince Humperdinck (Chris Sarandon) in director Rob Reiner's delightful classic!",
+      "ref": "https://www.amazon.com/gp/video/detail/B000VEPL2M/ref=atv_dp_share_cu_r",
+      "id": 8
+    },
+    {
+      "name": "The Neverending Story",
+      "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTcisdzucRlTMjeJCIn1sqbVtI4ukSjOA_AaSqF7JQUbnkOexhT",
+      "keyword": "Falcor",
+      "director": "Wolfgang Petersen",
+      "summary": "A family fantasy/adventure epic based on the acclaimed best-seller about a troubled boy who discovers an extraordinary storybook-and the fantastical world within its pages.",
+      "ref": "https://www.amazon.com/gp/video/detail/B000TA1JWO/ref=atv_dp_share_cu_r",
+      "id": 9
+    },
+    {
+      "name": "Serenity",
+      "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQJLbu3F9N7HahdAR36aYPz1riJpieNVD_XmhcOGO0h8KKAiyOL",
+      "keyword": "Firefly, Nathan Fillian",
+      "director": "Joss Whedon",
+      "summary": "The crew of the ship Serenity (first introduced to fans in the beloved television series 'Firefly') tries to evade an assassin sent to recapture one of their members who is telepathic.",
+      "ref": "https://www.amazon.com/gp/video/detail/B009CGDERO/ref=atv_dp_share_cu_r",
+      "id": 10
     }
   ]
 }
