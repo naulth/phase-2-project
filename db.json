@@ -51,6 +51,14 @@
       "summary": "It is a cool book",
       "ref": "https://a.co/d/iMJHd5S",
       "id": 6
+    },
+    {
+      "name": "Harry Potter and the Prisoner of Azkaban",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Harry_Potter_and_the_Prisoner_of_Azkaban.jpg/220px-Harry_Potter_and_the_Prisoner_of_Azkaban.jpg",
+      "author": "JK Rowling",
+      "summary": "Sirius Black is so cool",
+      "ref": "https://a.co/d/59eRXT1",
+      "id": 7
     }
   ],
   "movies": [

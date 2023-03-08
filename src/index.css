@@ -103,3 +103,15 @@ p.authors{
 
   width: 100%;
 }
+
+.hideFormButton {
+  background-color:darkslategray;
+  color: white;
+  border-radius: 8px;
+}
+
+.formdiv{
+  text-align: left;
+  padding-left: 50px;
+  padding-bottom: 100px;
+}
