@@ -1,12 +1,13 @@
 import React from 'react'
 
+
 function SearchBooks({changeSearch}) {
 
   const handleSearch = e => changeSearch(e.target.value)
 
   return (
     <div>
-      <input 
+      <input className="search"
         type="text"
         placeholder='Search'
         onChange={handleSearch}

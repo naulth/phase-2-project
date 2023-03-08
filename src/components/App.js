@@ -78,20 +78,20 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar />
-        <Switch>
-          <Route path="/movies">
-            <MoviesPage changeSearch={changeSearch} addMovie={addMovie} moviesArray={searchedMovies}/>
-          </Route>
-          <Route path="/books">
-            <BooksPage changeSearch={changeSearch} addBook={addBook} booksArray={searchedBooks}/>
-          </Route>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="*">
-            <h1>404 Not Found</h1>
-          </Route>
-        </Switch>
+          <Switch>
+            <Route path="/movies">
+              <MoviesPage changeSearch={changeSearch} addMovie={addMovie} moviesArray={searchedMovies}/>
+            </Route>
+            <Route path="/books">
+              <BooksPage changeSearch={changeSearch} addBook={addBook} booksArray={searchedBooks}/>
+            </Route>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="*">
+              <h1>404 Not Found</h1>
+            </Route>
+          </Switch>
       </header>
     </div>
   );

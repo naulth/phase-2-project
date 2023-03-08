@@ -6,7 +6,7 @@ function SearchMovies({changeSearch}) {
 
   return (
     <div>   
-      <input 
+      <input className="search"
         type="text"
         placeholder='Search'
         onChange={handleSearch}
