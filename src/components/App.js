@@ -73,6 +73,13 @@ function App() {
   const changeSearch = newSearch => setSearch( newSearch.toLowerCase() )
 
 
+  const deleteBook = (doomedId) => {
+    setBooksArray(booksArray.filter(book => book.id !== doomedId))
+  }
+
+  const deleteMovie = (doomedId) => {
+    setMoviesArray(moviesArray.filter(movie => movie.id !== doomedId))
+  }
 
   return (
     <div className="App">
@@ -80,10 +87,10 @@ function App() {
         <NavBar />
           <Switch>
             <Route path="/movies">
-              <MoviesPage changeSearch={changeSearch} addMovie={addMovie} moviesArray={searchedMovies}/>
+              <MoviesPage changeSearch={changeSearch} addMovie={addMovie} moviesArray={searchedMovies} deleteMovie={deleteMovie}/>
             </Route>
             <Route path="/books">
-              <BooksPage changeSearch={changeSearch} addBook={addBook} booksArray={searchedBooks}/>
+              <BooksPage changeSearch={changeSearch} addBook={addBook} booksArray={searchedBooks} deleteBook={deleteBook}/>
             </Route>
             <Route exact path="/">
               <Home />

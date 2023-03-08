@@ -134,6 +134,7 @@ p.authors{
   background-color: white;
   color: darkslategray;
   border-color: white;
+  margin: 5px;
 }
 
 .modalButton:hover {
