@@ -4,14 +4,14 @@ import Button from 'react-bootstrap/Button'
 import '../index.css'
 
 
-function BookDeleteModal({bookId, deleteBook}){
+function MovieDeleteModal({movieId, deleteMovie}){
     
     const [show, setShow] = useState(false);
     const handleClose = () => {
         setShow(false)
-        deleteBook(bookId)
+        deleteMovie(movieId)
 
-        fetch(`http://localhost:3000/books/${bookId}`,{
+        fetch(`http://localhost:3000/movies/${movieId}`,{
           method: 'DELETE'
         })
         
@@ -45,4 +45,4 @@ function BookDeleteModal({bookId, deleteBook}){
     
 }
 
-export default BookDeleteModal
+export default MovieDeleteModal

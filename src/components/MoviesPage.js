@@ -6,9 +6,9 @@ import '../index.css';
 import SearchMovies from './SearchMovies';
 
 
-function MoviesPage({moviesArray, addMovie, changeSearch}){
+function MoviesPage({moviesArray, addMovie, changeSearch, deleteMovie}){
     
-    const moviesComponents = moviesArray.map(movie => <MovieCards key={movie.id} movieName={movie.name} movieImg={movie.thumbnail} movieSummary={movie.summary} movieRef={movie.ref}/>)
+    const moviesComponents = moviesArray.map(movie => <MovieCards key={movie.id} movieId={movie.id} movieName={movie.name} movieImg={movie.thumbnail} movieSummary={movie.summary} movieRef={movie.ref} deleteMovie={deleteMovie}/>)
 
 
     const [hideMovieForm, setHideMovieForm] = useState(true)

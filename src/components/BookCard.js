@@ -5,7 +5,7 @@ import '../index.css'
 import { Heart } from 'react-bootstrap-icons';
 import { HeartFill } from 'react-bootstrap-icons';
 import BookModal from './BookModal'
-import DeleteModal from './BookDeleteModal'
+import BookDeleteModal from './BookDeleteModal'
 
 function BookCards({bookName, bookImg, bookSummary, bookRef, bookId, deleteBook}){
     
@@ -21,7 +21,7 @@ function BookCards({bookName, bookImg, bookSummary, bookRef, bookId, deleteBook}
                     <Card.Img variant="top photophoto" src={bookImg}/>
                     
                     <BookModal bookSummary={bookSummary} bookRef={bookRef} bookName={bookName}/>
-                    <DeleteModal bookId={bookId} deleteBook={deleteBook}/>
+                    <BookDeleteModal bookId={bookId} deleteBook={deleteBook}/>
                     <Button onClick={handleLike} variant='pink'>
                         {showLike ? <Heart color='pink'/> : <HeartFill color="pink" /> }
                     </Button>
