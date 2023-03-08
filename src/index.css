@@ -39,7 +39,7 @@ form {
 }
 
 .NavLink:hover {
-  color:red;
+  color:#dbd9d9f6;
 }
 
 nav {
@@ -128,4 +128,18 @@ p.authors{
 
 /* .search{
   margin-top: 200px;
-} */
+}
+
+.modalButton {
+  background-color: white;
+  color: darkslategray;
+  border-color: white;
+}
+
+.modalButton:hover {
+  background-color:darkslategray;
+}
+
+.amazon {
+  background-color: darkslategray;
+}

@@ -3,11 +3,9 @@ import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import '../index.css'
 
-
-function BookModal({bookRef, bookSummary, bookName}){
+function MovieModal({movieRef, movieSummary, movieName, props}){
     
     const [show, setShow] = useState(false);
-
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
@@ -17,16 +15,17 @@ function BookModal({bookRef, bookSummary, bookName}){
           View Details
         </Button>
   
-        <Modal size="lg" aria-labelledby="contained-modal-title-vcenter" centered show={show} onHide={handleClose}>
+        <Modal size="lg" aria-labelledby="contained-modal-title-vcenter" centered show={show} 
+            onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>{bookName}</Modal.Title>
+            <Modal.Title>{movieName}</Modal.Title>
           </Modal.Header>
-          <Modal.Body>{bookSummary}</Modal.Body>
+          <Modal.Body>{movieSummary}</Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
-            <Button className="amazon" href={bookRef} variant="primary" onClick={handleClose}>
+            <Button className="amazon" href={movieRef} variant="primary" onClick={handleClose}>
               Amazon
             </Button>
           </Modal.Footer>
@@ -37,4 +36,4 @@ function BookModal({bookRef, bookSummary, bookName}){
     
 }
 
-export default BookModal
+export default MovieModal
