@@ -43,12 +43,12 @@ form {
 }
 
 nav {
- position:fixed;
- top: 0;
- background-color:darkslategray;
- width: 100%;
- padding-bottom:50px;
- padding-top:30px;
+  position:fixed;
+  top: 0;
+  background-color:darkslategray;
+  width: 100%;
+  padding-bottom:50px;
+  padding-top:30px;
 }
 
 .moviediv{
@@ -126,6 +126,6 @@ p.authors{
   margin-top: 200px;
 }
 
-.search{
+/* .search{
   margin-top: 200px;
-}
+} */
