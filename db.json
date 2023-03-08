@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Harry Potter and the Sorcerer's stone",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/6/6b/Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg?20191031103457",
-      "image": "",
+      "keyword": "wizard, wand",
       "author": "J.K. Rowling",
       "summary": "Harry Potter has no idea how famous he is. That's because he's being raised by his miserable aunt and uncle who are terrified Harry will learn that he's really a wizard, just as his parents were. But everything changes when Harry is summoned to attend an infamous school for wizards, and he begins to discover some clues about his illustrious birthright. From the surprising way he is greeted by a lovable giant, to the unique curriculum and colorful faculty at his unusual school, Harry finds himself drawn deep inside a mystical world he never knew existed and closer to his own noble destiny.",
       "ref": "https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Rowling/dp/059035342X"
@@ -13,7 +13,7 @@
       "id": 2,
       "name": "Harry Potter and the Chamber of Secrets",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/5c/Harry_Potter_and_the_Chamber_of_Secrets.jpg?20191031110712",
-      "image": "",
+      "keyword": "wand",
       "author": "J.K. Rowling",
       "summary": "The Dursleys were so mean that hideous that summer that all Harry Potter wanted was to get back to the Hogwarts School for Witchcraft and Wizardry. But just as he's packing his bags, Harry receives a warning from a strange, impish creature named Dobby who says that if Harry Potter returns to Hogwarts, disaster will strike. And strike it does. For in Harry's second year at Hogwarts, fresh torments and horrors arise, including an outrageously stuck-up new professor, Gilderoy Lockheart, a spirit named Moaning Myrtle who haunts the girls' bathroom, and the unwanted attentions of Ron Weasley's younger sister, Ginny. But each of these seem minor annoyances when the real trouble begins, and someone--or something--starts turning Hogwarts students to stone. Could it be Draco Malfoy, a more poisonous rival than ever? Could it possibly be Hagrid, whose mysterious past is finally told? Or could it be the one everyone at Hogwarts most suspects...Harry Potter himself?",
       "ref": "https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Rowling/dp/059035342X"
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "The Farseer: Assassin's Apprentice",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/26/Robin_Hobb_-_Assassin%27s_Apprentice_Cover.jpg?20201008151847",
-      "image": "",
+      "keyword": "",
       "author": "Robin Hobb",
       "summary": "With unforgettable characters, a sweeping backdrop, and passionate storytelling, this is a fantasy debut to rival that of Robert Jordan. Filled with adventure and bloodshed, pageantry and piracy, mystery and menace, Assassin's Apprentice is the story of a royal house and the young man who is destined to chart its course through tempests of change. Young Fitz is the bastard son of the noble Prince Chivalry, raised in the shadow of the royal household by his father's gruff stableman. An outcast whose existence has forced his father to abdicate his claim on the throne, Fitz is ignored by all royalty except the devious King Shrewd, who has him secretly tutored in the arts of the assassin. For in the young man's blood is a heritage of magic, the talent called the Skill, as well as another, even more mysterious ability. As barbarous raiders ravage the coasts and leave behind the zombie-like husks of the townspeople to prowl the countryside, Fitz is growing toward manhood. Soon he will face his first dangerous, soul-shattering mission, a mission that poses as much a threat to himself as it does for his target---for Fitz is a threat to the throne...but he may also be the key to the survival of the kingdom.",
       "ref": "https://www.amazon.com/The-Farseer-Assassins-Apprentice/dp/B003ATP9VI/"
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "A Song of Ice and Fire: A Game of Thrones",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/dc/A_Song_of_Ice_and_Fire_book_collection_box_set_cover.jpg?20210904220743",
-      "image": "",
+      "keyword": "",
       "author": "George R.R. Martin",
       "summary": "Winter is coming. Such is the stern motto of House Stark, the northernmost of the fiefdoms that owe allegiance to King Robert Baratheon in far-off King’s Landing. There Eddard Stark of Winterfell rules in Robert’s name. There his family dwells in peace and comfort: his proud wife, Catelyn; his sons Robb, Brandon, and Rickon; his daughters Sansa and Arya; and his bastard son, Jon Snow. Far to the north, behind the towering Wall, lie savage Wildings and worse—unnatural things relegated to myth during the centuries-long summer, but proving all too real and all too deadly in the turning of the season. Yet a more immediate threat lurks to the south, where Jon Arryn, the Hand of the King, has died under mysterious circumstances. Now Robert is riding north to Winterfell, bringing his queen, the lovely but cold Cersei, his son, the cruel, vainglorious Prince Joffrey, and the queen’s brothers Jaime and Tyrion of the powerful and wealthy House Lannister—the first a swordsman without equal, the second a dwarf whose stunted stature belies a brilliant mind. All are heading for Winterfell and a fateful encounter that will change the course of kingdoms. Meanwhile, across the Narrow Sea, Prince Viserys, heir of the fallen House Targaryen, which once ruled all of Westeros, schemes to reclaim the throne with an army of barbarian Dothraki—whose loyalty he will purchase in the only coin left to him: his beautiful yet innocent sister, Daenerys.",
       "ref": "https://www.amazon.com/Game-Thrones-Song-Fire-Book/dp/0553386794"
@@ -40,6 +40,7 @@
       "name": "The Silmarillion",
       "thumbnail": "https://m.media-amazon.com/images/I/51kA5deyOBL._SX298_BO1,204,203,200_.jpg",
       "author": "JRR Tolkien",
+      "keyword": "",
       "summary": "The legendary precursor to The Lord of the Rings",
       "ref": "https://a.co/d/93uRIYt",
       "id": 5
@@ -48,6 +49,7 @@
       "name": "The Way of Kings",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/TheWayOfKings.png/220px-TheWayOfKings.png",
       "author": "Brandon Sanderson",
+      "keyword": "",
       "summary": "It is a cool book",
       "ref": "https://a.co/d/iMJHd5S",
       "id": 6
@@ -58,7 +60,7 @@
       "id": 1,
       "name": "Labyrinth",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Labyrinth_ver2.jpg/220px-Labyrinth_ver2.jpg",
-      "Image": "",
+      "keyword": "",
       "director": "Jim Henson",
       "summary": "A young girl, who enters a world of her own creation, experiences her first awareness of love, responsibility and danger.",
       "ref": "https://www.amazon.com/Labyrinth-Brian-Henson/dp/B008Y6ZK5C/ref=sr_1_1?keywords=The+Labyrinth&qid=1678116978&sr=8-1"
@@ -67,7 +69,7 @@
       "id": 2,
       "name": "The Lord of the Rings: The Fellowship of the Ring ",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Lord_of_the_Rings_The_Fellowship_of_the_Ring_%282001%29.jpg",
-      "image": "",
+      "keyword": "",
       "director": "Peter Jackson",
       "summary": "In the first part, The Lord of the Rings, a shy young hobbit named Frodo Baggins inherits a simple gold ring that holds the secret to the survival--or enslavement--of the entire world.",
       "ref": "https://www.amazon.com/gp/video/detail/B000YMH4CG/ref=atv_dp_share_cu_r"
@@ -76,7 +78,7 @@
       "id": 3,
       "name": "The Lord of the Rings: The Two Towers",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d0/Lord_of_the_Rings_-_The_Two_Towers_%282002%29.jpg",
-      "image": "",
+      "keyword": "",
       "director": "Peter Jackson",
       "summary": "In the second part of the Tolkien trilogy, Frodo Baggins and the other members of the Fellowship continue on their sacred quest to destroy the One Ring--but on separate paths.",
       "ref": "https://www.amazon.com/gp/video/detail/B0037WP83M/ref=atv_dp_share_cu_r"
@@ -85,7 +87,7 @@
       "id": 4,
       "name": "The Lord of the Rings: The Return of the King ",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/be/The_Lord_of_the_Rings_-_The_Return_of_the_King_%282003%29.jpg",
-      "image": "",
+      "keyword": "",
       "director": "Peter Jackson",
       "summary": "In this extended edition of the epic conclusion of The Lord of the Rings trilogy, armies mass for a final battle that will decide the fate of the world.",
       "ref": "https://www.amazon.com/gp/video/detail/B009ITL7UG/ref=atv_dp_share_cu_r"
@@ -93,7 +95,8 @@
     {
       "name": "Star Wars: A New Hope",
       "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSivwhA7pSNEMKFs_CmDbg9xhshhQdUGWeLUPlejL2qjm2LDwZg",
-      "author": "George Lucas",
+      "director": "George Lucas",
+      "keyword": "",
       "summary": "OG Star Wars",
       "ref": "https://www.amazon.com/gp/video/detail/B00VF06OBS/ref=atv_dp_share_cu_r",
       "id": 5
@@ -101,7 +104,8 @@
     {
       "name": "Star Wars: The Empire Strikes Back",
       "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS-66DuPU8AgfvKv30sUpSVqTyRViBHTgjVBsftkL2gloK0lQ-p",
-      "author": "George Lucas",
+      "director": "George Lucas",
+      "keyword": "",
       "summary": "The Best One",
       "ref": "https://www.amazon.com/gp/video/detail/B00VF19CBQ/ref=atv_dp_share_cu_r",
       "id": 6

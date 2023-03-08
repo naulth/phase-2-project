@@ -25,7 +25,7 @@ function AddMovieForm({addMovie}) {
         const newMovie ={
             name: name,
             thumbnail: thumbnail,
-            author: director,
+            director: director,
             summary: summary,
             ref: ref
         }

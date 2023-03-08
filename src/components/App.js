@@ -11,27 +11,68 @@ function App() {
 
   const [booksArray, setBooksArray] = useState([])
 
-    useEffect(() => {
-        fetch('http://localhost:3000/books')
-            .then(r => r.json())
-            .then(setBooksArray)
-    },[])
+  useEffect(() => {
+      fetch('http://localhost:3000/books')
+          .then(r => r.json())
+          .then(setBooksArray)
+  },[])
 
-    const [moviesArray, setMoviesArray] = useState([])
+  const [moviesArray, setMoviesArray] = useState([])
 
-    useEffect(() => {
-        fetch('http://localhost:3000/movies')
-            .then(r => r.json())
-            .then(setMoviesArray)
-    },[])
+  useEffect(() => {
+      fetch('http://localhost:3000/movies')
+          .then(r => r.json())
+          .then(setMoviesArray)
+  },[])
 
-    const addMovie = (newMovieObj) => {
-        setMoviesArray([...moviesArray, newMovieObj])
+  const addMovie = (newMovieObj) => {
+      setMoviesArray([...moviesArray, newMovieObj])
+  }
+
+  const addBook = (newBookObj) => {
+      setBooksArray([...booksArray, newBookObj])
+  }
+
+  const [search, setSearch] = useState('')
+
+  const byName = book => {
+    if( book.name.toLowerCase().includes(search)) {
+      return true
     }
-
-    const addBook = (newBookObj) => {
-        setBooksArray([...booksArray, newBookObj])
+  }
+  const byAuthor = book => {
+    if( book.author.toLowerCase().includes(search)) {
+      return true
     }
+  }
+  const byDirector = movie => {
+    if( movie.director.toLowerCase().includes(search)) {
+      return true
+    }
+  }
+  const byKeyword = book => {
+    if( book.keyword.toLowerCase().includes(search)) {
+      return true
+    }
+  }
+  
+  const bookSearch = book => {
+    return byName(book) || byAuthor(book) || byKeyword(book)
+  }
+
+  const movieSearch = movie => {
+    return byName(movie) || byDirector(movie) || byKeyword(movie)
+  }
+
+
+
+  const searchedBooks = booksArray.filter( bookSearch );
+
+  const searchedMovies = moviesArray.filter( movieSearch );
+
+  const changeSearch = newSearch => setSearch( newSearch.toLowerCase() )
+
+
 
   return (
     <div className="App">
@@ -39,10 +80,10 @@ function App() {
         <NavBar />
         <Switch>
           <Route path="/movies">
-            <MoviesPage addMovie={addMovie} moviesArray={moviesArray}/>
+            <MoviesPage changeSearch={changeSearch} addMovie={addMovie} moviesArray={searchedMovies}/>
           </Route>
           <Route path="/books">
-            <BooksPage addBook={addBook} booksArray={booksArray}/>
+            <BooksPage changeSearch={changeSearch} addBook={addBook} booksArray={searchedBooks}/>
           </Route>
           <Route exact path="/">
             <Home />
