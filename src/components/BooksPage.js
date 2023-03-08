@@ -4,6 +4,7 @@ import CardGroup from 'react-bootstrap/CardGroup'
 import AddBookForm from './AddBookForm'
 
 
+
 function BooksPage({booksArray, addBook}){
     
     const booksComponents = booksArray.map(book => <BookCards key={book.id} bookName={book.name} bookImg={book.thumbnail}/>)
@@ -15,7 +16,7 @@ function BooksPage({booksArray, addBook}){
                 <AddBookForm addBook={addBook}/>
             </div>
             <div>
-                <CardGroup>
+                <CardGroup className='grid-container'>
                     {booksComponents}
                 </CardGroup>
             </div>
