@@ -10,11 +10,13 @@ function AddMovieForm({addMovie, handleHideMovieForm}) {
     const [name, setName] = useState('')
     const [thumbnail, setThumbnail] = useState('')
     const [director, setDirector] = useState('')
+    const [keyword, setKeyword] = useState('')
     const [summary, setSummary] = useState('')
     const [ref, setRef] = useState('')
 
     const handleName = (e) => {setName(e.target.value)}
     const handleThumbnail = (e) => {setThumbnail(e.target.value)}
+    const handleKeyword = (e) => {setKeyword(e.target.value)}
     const handleDirector = (e) => {setDirector(e.target.value)}
     const handleSummary = (e) => {setSummary(e.target.value)}
     const handleRef = (e) => {setRef(e.target.value)}
@@ -25,6 +27,7 @@ function AddMovieForm({addMovie, handleHideMovieForm}) {
         const newMovie ={
             name: name,
             thumbnail: thumbnail,
+            keyword: keyword,
             director: director,
             summary: summary,
             ref: ref
@@ -40,6 +43,7 @@ function AddMovieForm({addMovie, handleHideMovieForm}) {
 
         setName('')
         setThumbnail('')
+        setKeyword('')
         setDirector('')
         setSummary('')
         setRef('')
@@ -51,6 +55,7 @@ function AddMovieForm({addMovie, handleHideMovieForm}) {
       <Form className="addForm" onSubmit={handleSubmit}>
           <Form.Control onChange={handleName} type="text" name="name" placeholder="Name"/>
           <Form.Control onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
+          <Form.Control onChange={handleKeyword} type="text" name="keyword" placeholder="Keyword, Keyword" />
           <Form.Control onChange={handleDirector} type="text" name="director" placeholder="Director" />
           <Form.Control onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>
           <Form.Control onChange={handleRef} type="text" name="ref" placeholder="Reference URL"/>
