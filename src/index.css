@@ -116,3 +116,12 @@ p.authors{
   padding-left: 50px;
   padding-bottom: 100px;
 }
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.size{
+  margin-top: 200px;
+}

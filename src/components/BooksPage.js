@@ -23,7 +23,7 @@ function BooksPage({booksArray, addBook}){
 
     return(
         <main>
-            <div className="bookdiv">
+            <div className="bookdiv size">
                 <h2>Science-Fiction and Fantasy Books</h2>
                 <div className="formdiv">
                     {hideBookForm ? <FormButton handleHideBookForm={handleHideBookForm} className="hideFormButton" /> : <AddBookForm addBook={addBook} handleHideBookForm={handleHideBookForm}/>}

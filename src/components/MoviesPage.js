@@ -24,14 +24,14 @@ function MoviesPage({moviesArray, addMovie}){
 
     return(
         <main>
-            <div className="moviediv">
+            <div className="moviediv size">
                 <h2>Science-Fiction and Fantasy Movies</h2>
                 <div className="formdiv">
                     {hideMovieForm ? <FormButton handleHideMovieForm={handleHideMovieForm} className="hideFormButton" /> : <AddMovieForm addMovie={addMovie} handleHideMovieForm={handleHideMovieForm}/>}
                 </div>
             </div>
             <div>
-                <CardGroup>
+                <CardGroup className='grid-container'>
                     {moviesComponents}
                 </CardGroup>
             </div>
