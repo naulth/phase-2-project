@@ -59,6 +59,14 @@
       "summary": "Sirius Black is so cool",
       "ref": "https://a.co/d/59eRXT1",
       "id": 7
+    },
+    {
+      "name": "Harry Potter and the Goblet of Fire",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Harry_Potter_and_the_Goblet_of_Fire_cover.png/220px-Harry_Potter_and_the_Goblet_of_Fire_cover.png",
+      "author": "JK Rowling",
+      "summary": "The tri wizard tournament is cool",
+      "ref": "https://a.co/d/2F8jmLq",
+      "id": 8
     }
   ],
   "movies": [

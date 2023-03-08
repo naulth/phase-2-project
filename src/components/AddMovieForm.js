@@ -38,6 +38,12 @@ function AddMovieForm({addMovie, handleHideMovieForm}) {
             body: JSON.stringify(newMovie)
         })
 
+        setName('')
+        setThumbnail('')
+        setDirector('')
+        setSummary('')
+        setRef('')
+
         handleHideMovieForm()
     }
 

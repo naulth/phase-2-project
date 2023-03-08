@@ -35,6 +35,13 @@ function AddBookForm({addBook, handleHideBookForm}) {
         headers: {'Content-Type' : 'application/json'},
         body: JSON.stringify(newBook)
         })
+
+        setName('')
+        setThumbnail('')
+        setAuthor('')
+        setSummary('')
+        setRef('')
+
         handleHideBookForm()
     }
 
