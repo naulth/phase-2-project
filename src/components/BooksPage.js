@@ -7,7 +7,7 @@ import SearchBooks from './SearchBooks'
 
 function BooksPage({booksArray, addBook, changeSearch, deleteBook}){
     
-    const booksComponents = booksArray.map(book => <BookCards key={book.id} bookId={book.id} bookName={book.name} bookImg={book.thumbnail} bookAuthor={book.author}bookSummary={book.summary} bookRef={book.ref} deleteBook={deleteBook} likeBtn={book.likeBtn}/> )
+    const booksComponents = booksArray.map(book => <BookCards key={book.id} bookId={book.id} bookName={book.name} bookImg={book.thumbnail} bookAuthor={book.author}bookSummary={book.summary} bookRef={book.ref} deleteBook={deleteBook} likeBtn={book.likeBtn}/>)
 
     const [hideBookForm, setHideBookForm] = useState(true)
     const handleHideBookForm = () => {
@@ -28,7 +28,6 @@ function BooksPage({booksArray, addBook, changeSearch, deleteBook}){
                 <div className="formdiv">
                     {hideBookForm ? <FormButton handleHideBookForm={handleHideBookForm} className="hideFormButton" /> : <AddBookForm addBook={addBook} handleHideBookForm={handleHideBookForm}/>}
                 </div>
-            
             </div>
             <div className="carddiv">
                 <CardGroup className='grid-container'>
@@ -36,7 +35,6 @@ function BooksPage({booksArray, addBook, changeSearch, deleteBook}){
                 </CardGroup>
             </div>
         </main>
-        
     )
 }
 

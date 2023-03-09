@@ -5,7 +5,6 @@ import '../index.css'
 function Home() {
 
     return(
-        
         <div>
             <div>
                 <h1>The Science-Fiction and Fantasy Database</h1>

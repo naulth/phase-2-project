@@ -25,21 +25,17 @@ function BookCards({bookName, bookImg, bookSummary, bookRef, bookId, deleteBook,
     }
 
     return (
-            <Card style={{width: '14rem'}} className='bg-dark border-light rounded' >
-                <Card.Body>
-                    
-                    <Card.Img variant="top photophoto" src={bookImg}/>
-                    
-                    <BookModal bookAuthor={bookAuthor} bookSummary={bookSummary} bookRef={bookRef} bookName={bookName}/>
-                    <BookDeleteModal bookId={bookId} deleteBook={deleteBook}/>
-                    <Button onClick={handleLike} variant='pink'>
-                        {showLike ? <Heart color='pink'/> : <HeartFill color="pink" /> }
-                    </Button>
-                    <Card.Title className="cardtitle">{bookName}</Card.Title>
-                    
-                    
-                </Card.Body>
-            </Card>
+        <Card style={{width: '14rem'}} className='bg-dark border-light rounded' >
+            <Card.Body>
+                <Card.Img variant="top photophoto" src={bookImg}/>
+                <BookModal bookAuthor={bookAuthor} bookSummary={bookSummary} bookRef={bookRef} bookName={bookName}/>
+                <BookDeleteModal bookId={bookId} deleteBook={deleteBook}/>
+                <Button onClick={handleLike} variant='pink'>
+                    {showLike ? <Heart color='pink'/> : <HeartFill color="pink" /> }
+                </Button>
+                <Card.Title className="cardtitle">{bookName}</Card.Title>
+            </Card.Body>
+        </Card>
     );
 }
 

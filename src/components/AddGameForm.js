@@ -50,19 +50,17 @@ function AddGameForm({addGame, handleHideGameForm}) {
     }
 
     return(
-      <Form className="addForm" onSubmit={handleSubmit}>
-        <div>
-          <Form.Control onChange={handleName} type="text" name="name" placeholder="Name"/>
-          <Form.Control onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
-          <Form.Control onChange={handleKeyword} type="text" name="keyword" placeholder="Keyword, Keyword" />
-          <Form.Control onChange={handleDeveloper} type="text" name="developer" placeholder="Developer" />
-          <Form.Control onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>
-          <Form.Control onChange={handleRef} type="text" name="ref" placeholder="Reference URL"/>
-        </div>
-        <Button className="add-button" type="submit">
-          Add A Game
-        </Button>
-        <Button className="add-button" onClick={handleHideGameForm}>Close Form</Button>
+        <Form className="addForm" onSubmit={handleSubmit}>
+            <div>
+                <Form.Control onChange={handleName} type="text" name="name" placeholder="Name"/>
+                <Form.Control onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
+                <Form.Control onChange={handleKeyword} type="text" name="keyword" placeholder="Keyword, Keyword" />
+                <Form.Control onChange={handleDeveloper} type="text" name="developer" placeholder="Developer" />
+                <Form.Control onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>
+                <Form.Control onChange={handleRef} type="text" name="ref" placeholder="Reference URL"/>
+            </div>
+            <Button className="add-button" type="submit">Add A Game</Button>
+            <Button className="add-button" onClick={handleHideGameForm}>Close Form</Button>
       </Form>
     )
 }

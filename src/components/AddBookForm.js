@@ -49,19 +49,17 @@ function AddBookForm({addBook, handleHideBookForm}) {
     }
 
     return(
-      <Form className="addForm" onSubmit={handleSubmit}>
-        <div>
-          <Form.Control onChange={handleName} type="text" name="name" placeholder="Name"/>
-          <Form.Control onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
-          <Form.Control onChange={handleKeyword} type="text" name="keyword" placeholder="Keyword, Keyword" />
-          <Form.Control onChange={handleAuthor} type="text" name="author" placeholder="Author" />
-          <Form.Control onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>
-          <Form.Control onChange={handleRef} type="text" name="ref" placeholder="Reference URL"/>
-        </div>
-        <Button className="add-button" type="submit">
-          Add A Book
-        </Button>
-        <Button className="add-button" onClick={handleHideBookForm}>Close Form</Button>
+        <Form className="addForm" onSubmit={handleSubmit}>
+            <div>
+                <Form.Control onChange={handleName} type="text" name="name" placeholder="Name"/>
+                <Form.Control onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
+                <Form.Control onChange={handleKeyword} type="text" name="keyword" placeholder="Keyword, Keyword" />
+                <Form.Control onChange={handleAuthor} type="text" name="author" placeholder="Author" />
+                <Form.Control onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>
+                <Form.Control onChange={handleRef} type="text" name="ref" placeholder="Reference URL"/>
+            </div>
+            <Button className="add-button" type="submit">Add A Book</Button>
+            <Button className="add-button" onClick={handleHideBookForm}>Close Form</Button>
       </Form>
     )
 }

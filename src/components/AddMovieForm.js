@@ -5,8 +5,6 @@ import '../index.css'
 
 function AddMovieForm({addMovie, handleHideMovieForm}) {
 
-
-
     const [name, setName] = useState('')
     const [thumbnail, setThumbnail] = useState('')
     const [director, setDirector] = useState('')
@@ -53,16 +51,14 @@ function AddMovieForm({addMovie, handleHideMovieForm}) {
 
     return(
       <Form className="addForm" onSubmit={handleSubmit}>
-          <Form.Control onChange={handleName} type="text" name="name" placeholder="Name"/>
-          <Form.Control onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
-          <Form.Control onChange={handleKeyword} type="text" name="keyword" placeholder="Keyword, Keyword" />
-          <Form.Control onChange={handleDirector} type="text" name="director" placeholder="Director" />
-          <Form.Control onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>
-          <Form.Control onChange={handleRef} type="text" name="ref" placeholder="Reference URL"/>
-        <Button className="add-button" type="submit">
-          Add A Movie
-        </Button>
-        <Button className="add-button" onClick={handleHideMovieForm}>Close Form</Button>
+            <Form.Control onChange={handleName} type="text" name="name" placeholder="Name"/>
+            <Form.Control onChange={handleThumbnail} type="text" name="thumbnail" placeholder="Thumbnail URL" />
+            <Form.Control onChange={handleKeyword} type="text" name="keyword" placeholder="Keyword, Keyword" />
+            <Form.Control onChange={handleDirector} type="text" name="director" placeholder="Director" />
+            <Form.Control onChange={handleSummary} type="text" name="summary" placeholder="Summary"/>
+            <Form.Control onChange={handleRef} type="text" name="ref" placeholder="Reference URL"/>
+            <Button className="add-button" type="submit">Add A Movie</Button>
+            <Button className="add-button" onClick={handleHideMovieForm}>Close Form</Button>
       </Form>
     )
 }
