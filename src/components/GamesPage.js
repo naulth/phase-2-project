@@ -8,7 +8,7 @@ import SearchGames from './SearchGames';
 
 function GamesPage({gamesArray, addGame, changeSearch, deleteGame}){
     
-    const gamesComponents = gamesArray.map(game => <GameCards key={game.id} gameId={game.id} gameDeveloper={game.developer} gameName={game.name} gameImg={game.thumbnail} gameSummary={game.summary} gameRef={game.ref} deleteGame={deleteGame}/>)
+    const gamesComponents = gamesArray.map(game => <GameCards key={game.id} gameId={game.id} gameDeveloper={game.developer} gameName={game.name} gameImg={game.thumbnail} gameSummary={game.summary} gameRef={game.ref} deleteGame={deleteGame} likeBtn={game.likeBtn}/>)
 
 
     const [hideGameForm, setHideGameForm] = useState(true)

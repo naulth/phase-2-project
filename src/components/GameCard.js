@@ -7,11 +7,21 @@ import { HeartFill } from 'react-bootstrap-icons';
 import GameModal from './GameModal.js'
 import GameDeleteModal from './GameDeleteModal'
 
-function GameCards({gameName, gameImg, gameSummary, gameRef, gameId, deleteGame,gameDeveloper}){
+function GameCards({gameName, gameImg, gameSummary, gameRef, gameId, deleteGame,gameDeveloper, likeBtn}){
     
-    const[showLike, setShowLike] = useState(true)
+    const[showLike, setShowLike] = useState(likeBtn)
+
     const handleLike = () => {
         setShowLike(showLike => !showLike)
+        fetch(`http://localhost:3000/games/${gameId}` , {
+	        method: "PATCH",
+	        headers: {
+		        "Content-Type": "application/json",
+	        },
+		    body: JSON.stringify({
+                likeBtn: !showLike
+            })
+	    })
     }
 
     return (
