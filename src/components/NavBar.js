@@ -6,6 +6,7 @@ function TheNavBar() {
 
     return(
                 <nav className='me-auto'>
+                    <img src='../wizard-favicon.png' height="100px" />
                     <NavLink className="NavLink" exact to = "./">Home</NavLink>
                     <NavLink className="NavLink" to = "/books">Books</NavLink>
                     <NavLink className="NavLink" to = "/movies">Movies</NavLink>
