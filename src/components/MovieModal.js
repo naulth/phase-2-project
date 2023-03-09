@@ -25,7 +25,7 @@ function MovieModal({movieRef, movieSummary, movieName, props, movieDirector}){
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
-            <Button className="amazon" href={movieRef} variant="primary" onClick={handleClose}>
+            <Button className="amazon" href={movieRef} target="_blank" rel="noreferrer noopener" variant="primary" onClick={handleClose}>
               Amazon
             </Button>
           </Modal.Footer>

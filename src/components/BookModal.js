@@ -26,7 +26,7 @@ function BookModal({bookRef, bookSummary, bookName, bookAuthor}){
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
-            <Button className="amazon" href={bookRef} variant="primary" onClick={handleClose}>
+            <Button className="amazon" href={bookRef} target="_blank" rel="noreferrer noopener" variant="primary" onClick={handleClose}>
               Amazon
             </Button>
           </Modal.Footer>
