@@ -9,6 +9,7 @@ function TheNavBar() {
                     <NavLink className="NavLink" exact to = "./">Home</NavLink>
                     <NavLink className="NavLink" to = "/books">Books</NavLink>
                     <NavLink className="NavLink" to = "/movies">Movies</NavLink>
+                    <NavLink className="NavLink" to = "/games">Games</NavLink>
                 </nav>
     )
 }
