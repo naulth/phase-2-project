@@ -7,7 +7,7 @@ import { HeartFill } from 'react-bootstrap-icons';
 import BookModal from './BookModal'
 import BookDeleteModal from './BookDeleteModal'
 
-function BookCards({bookName, bookImg, bookSummary, bookRef, bookId, deleteBook}){
+function BookCards({bookName, bookImg, bookSummary, bookRef, bookId, deleteBook,bookAuthor}){
     
     const[showLike, setShowLike] = useState(true)
     const handleLike = () => {
@@ -15,12 +15,12 @@ function BookCards({bookName, bookImg, bookSummary, bookRef, bookId, deleteBook}
     }
 
     return (
-            <Card style={{width: '14rem'}} className='bg-dark border-light' >
+            <Card style={{width: '14rem'}} className='bg-dark border-light rounded' >
                 <Card.Body>
                     
                     <Card.Img variant="top photophoto" src={bookImg}/>
                     
-                    <BookModal bookSummary={bookSummary} bookRef={bookRef} bookName={bookName}/>
+                    <BookModal bookAuthor={bookAuthor} bookSummary={bookSummary} bookRef={bookRef} bookName={bookName}/>
                     <BookDeleteModal bookId={bookId} deleteBook={deleteBook}/>
                     <Button onClick={handleLike} variant='pink'>
                         {showLike ? <Heart color='pink'/> : <HeartFill color="pink" /> }

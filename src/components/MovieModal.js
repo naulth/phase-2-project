@@ -3,7 +3,7 @@ import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 import '../index.css'
 
-function MovieModal({movieRef, movieSummary, movieName, props}){
+function MovieModal({movieRef, movieSummary, movieName, props, movieDirector}){
     
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -18,7 +18,7 @@ function MovieModal({movieRef, movieSummary, movieName, props}){
         <Modal size="lg" aria-labelledby="contained-modal-title-vcenter" centered show={show} 
             onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>{movieName}</Modal.Title>
+            <Modal.Title>{movieName} - {movieDirector}</Modal.Title>
           </Modal.Header>
           <Modal.Body>{movieSummary}</Modal.Body>
           <Modal.Footer>

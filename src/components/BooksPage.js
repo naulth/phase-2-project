@@ -7,7 +7,7 @@ import SearchBooks from './SearchBooks'
 
 function BooksPage({booksArray, addBook, changeSearch, deleteBook}){
     
-    const booksComponents = booksArray.map(book => <BookCards key={book.id} bookId={book.id} bookName={book.name} bookImg={book.thumbnail} bookSummary={book.summary} bookRef={book.ref} deleteBook={deleteBook}/> )
+    const booksComponents = booksArray.map(book => <BookCards key={book.id} bookId={book.id} bookName={book.name} bookImg={book.thumbnail} bookAuthor={book.author}bookSummary={book.summary} bookRef={book.ref} deleteBook={deleteBook}/> )
 
     const [hideBookForm, setHideBookForm] = useState(true)
     const handleHideBookForm = () => {

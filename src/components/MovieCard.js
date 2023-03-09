@@ -7,7 +7,8 @@ import { Heart } from 'react-bootstrap-icons';
 import { HeartFill } from 'react-bootstrap-icons';
 import MovieDeleteModal from './MovieDeleteModal';
 
-function MovieCards({movieName, movieImg, movieSummary, movieRef, movieId, deleteMovie}){
+
+function MovieCards({movieName, movieImg, movieSummary, movieRef, movieId, deleteMovie, movieDirector}){
 
     const[showLike, setShowLike] = useState(true)
     const handleLike = () => {
@@ -15,11 +16,11 @@ function MovieCards({movieName, movieImg, movieSummary, movieRef, movieId, delet
     }
 
     return (
-            <Card style={{width: '14rem'}} className='bg-dark border-light' >
+            <Card style={{ width: '14rem' }} className='bg-dark border-light rounded' >
                 <Card.Body>
                     <Card.Img className="top photophoto" src={movieImg}/>
-                    <MovieModal movieSummary={movieSummary} movieRef={movieRef} movieName={movieName}/>
-                    <MovieDeleteModal movieId={movieId} deleteMovie={deleteMovie}/>
+                    <MovieModal movieSummary={movieSummary} movieRef={movieRef} movieName={movieName} movieDirector={movieDirector}/>
+                    <MovieDeleteModal movieId={movieId} deleteMovie={deleteMovie} />
                     <Button onClick={handleLike} variant='pink'>
                         {showLike ? <Heart color='pink'/> : <HeartFill color="pink" /> }
                     </Button>

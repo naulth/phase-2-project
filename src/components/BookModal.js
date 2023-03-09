@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import '../index.css'
 
 
-function BookModal({bookRef, bookSummary, bookName}){
+function BookModal({bookRef, bookSummary, bookName, bookAuthor}){
     
     const [show, setShow] = useState(false);
 
@@ -19,7 +19,7 @@ function BookModal({bookRef, bookSummary, bookName}){
   
         <Modal size="lg" aria-labelledby="contained-modal-title-vcenter" centered show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>{bookName}</Modal.Title>
+            <Modal.Title>{bookName} - {bookAuthor}</Modal.Title>
           </Modal.Header>
           <Modal.Body>{bookSummary}</Modal.Body>
           <Modal.Footer>
