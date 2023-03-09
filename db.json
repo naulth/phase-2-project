@@ -7,7 +7,8 @@
       "keyword": "Harry Potter, Ron Weasley, Hermione Granger",
       "author": "J.K. Rowling",
       "summary": "The Dursleys were so mean that hideous that summer that all Harry Potter wanted was to get back to the Hogwarts School for Witchcraft and Wizardry. But just as he's packing his bags, Harry receives a warning from a strange, impish creature named Dobby who says that if Harry Potter returns to Hogwarts, disaster will strike. And strike it does. For in Harry's second year at Hogwarts, fresh torments and horrors arise, including an outrageously stuck-up new professor, Gilderoy Lockheart, a spirit named Moaning Myrtle who haunts the girls' bathroom, and the unwanted attentions of Ron Weasley's younger sister, Ginny. But each of these seem minor annoyances when the real trouble begins, and someone--or something--starts turning Hogwarts students to stone. Could it be Draco Malfoy, a more poisonous rival than ever? Could it possibly be Hagrid, whose mysterious past is finally told? Or could it be the one everyone at Hogwarts most suspects...Harry Potter himself?",
-      "ref": "https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Rowling/dp/059035342X"
+      "ref": "https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Rowling/dp/059035342X",
+      "likeBtn": true
     },
     {
       "id": 3,
@@ -16,7 +17,8 @@
       "keyword": "The Farseer",
       "author": "Robin Hobb",
       "summary": "With unforgettable characters, a sweeping backdrop, and passionate storytelling, this is a fantasy debut to rival that of Robert Jordan. Filled with adventure and bloodshed, pageantry and piracy, mystery and menace, Assassin's Apprentice is the story of a royal house and the young man who is destined to chart its course through tempests of change. Young Fitz is the bastard son of the noble Prince Chivalry, raised in the shadow of the royal household by his father's gruff stableman. An outcast whose existence has forced his father to abdicate his claim on the throne, Fitz is ignored by all royalty except the devious King Shrewd, who has him secretly tutored in the arts of the assassin. For in the young man's blood is a heritage of magic, the talent called the Skill, as well as another, even more mysterious ability. As barbarous raiders ravage the coasts and leave behind the zombie-like husks of the townspeople to prowl the countryside, Fitz is growing toward manhood. Soon he will face his first dangerous, soul-shattering mission, a mission that poses as much a threat to himself as it does for his target---for Fitz is a threat to the throne...but he may also be the key to the survival of the kingdom.",
-      "ref": "https://www.amazon.com/The-Farseer-Assassins-Apprentice/dp/B003ATP9VI/"
+      "ref": "https://www.amazon.com/The-Farseer-Assassins-Apprentice/dp/B003ATP9VI/",
+      "likeBtn": true
     },
     {
       "id": 4,
@@ -25,7 +27,8 @@
       "keyword": "A Song of Ice and Fire",
       "author": "George R.R. Martin",
       "summary": "Winter is coming. Such is the stern motto of House Stark, the northernmost of the fiefdoms that owe allegiance to King Robert Baratheon in far-off King’s Landing. There Eddard Stark of Winterfell rules in Robert’s name. There his family dwells in peace and comfort: his proud wife, Catelyn; his sons Robb, Brandon, and Rickon; his daughters Sansa and Arya; and his bastard son, Jon Snow. Far to the north, behind the towering Wall, lie savage Wildings and worse—unnatural things relegated to myth during the centuries-long summer, but proving all too real and all too deadly in the turning of the season. Yet a more immediate threat lurks to the south, where Jon Arryn, the Hand of the King, has died under mysterious circumstances. Now Robert is riding north to Winterfell, bringing his queen, the lovely but cold Cersei, his son, the cruel, vainglorious Prince Joffrey, and the queen’s brothers Jaime and Tyrion of the powerful and wealthy House Lannister—the first a swordsman without equal, the second a dwarf whose stunted stature belies a brilliant mind. All are heading for Winterfell and a fateful encounter that will change the course of kingdoms. Meanwhile, across the Narrow Sea, Prince Viserys, heir of the fallen House Targaryen, which once ruled all of Westeros, schemes to reclaim the throne with an army of barbarian Dothraki—whose loyalty he will purchase in the only coin left to him: his beautiful yet innocent sister, Daenerys.",
-      "ref": "https://www.amazon.com/Game-Thrones-Song-Fire-Book/dp/0553386794"
+      "ref": "https://www.amazon.com/Game-Thrones-Song-Fire-Book/dp/0553386794",
+      "likeBtn": true
     },
     {
       "name": "The Silmarillion",
@@ -34,7 +37,8 @@
       "keyword": "Myths",
       "summary": "The legendary precursor to The Lord of the Rings",
       "ref": "https://a.co/d/93uRIYt",
-      "id": 5
+      "id": 5,
+      "likeBtn": true
     },
     {
       "name": "Harry Potter and the Prisoner of Azkaban",
@@ -43,7 +47,8 @@
       "keyword": "Harry Potter, Ron Weasley, Hermione Granger",
       "summary": "Sirius Black is so cool",
       "ref": "https://a.co/d/59eRXT1",
-      "id": 7
+      "id": 7,
+      "likeBtn": true
     },
     {
       "name": "Harry Potter and the Goblet of Fire",
@@ -52,7 +57,8 @@
       "keyword": "Harry Potter, Ron Weasley, Hermione Granger",
       "summary": "The tri wizard tournament is cool",
       "ref": "https://a.co/d/2F8jmLq",
-      "id": 8
+      "id": 8,
+      "likeBtn": true
     },
     {
       "name": "Wizard's First Rule",
@@ -61,7 +67,8 @@
       "author": "Terry Goodkind",
       "summary": "In the aftermath of the brutal murder of his father, a mysterious woman, Kahlan Amnell, appears in Richard Cypher's forest sanctuary seeking help . . . and more. His world, his very beliefs, are shattered when ancient debts come due with thundering violence.  In a dark age it takes courage to live, and more than mere courage to challenge those who hold dominion, Richard and Kahlan must take up that challenge or become the next victims. Beyond awaits a bewitching land where even the best of their hearts could betray them. Yet, Richard fears nothing so much as what secrets his sword might reveal about his own soul. Falling in love would destroy them--for reasons Richard can't imagine and Kahlan dare not say.  In their darkest hour, hunted relentlessly, tormented by treachery and loss, Kahlan calls upon Richard to reach beyond his sword--to invoke within himself something more noble. Neither knows that the rules of battle have just changed . . . or that their time has run out.",
       "ref": "https://a.co/d/8UHihDZ",
-      "id": 9
+      "id": 9,
+      "likeBtn": true
     },
     {
       "name": "The Final Empire",
@@ -70,7 +77,8 @@
       "author": "Brandon Sanderson",
       "summary": "For a thousand years the ash fell and no flowers bloomed. For a thousand years the Skaa slaved in misery and lived in fear. For a thousand years the Lord Ruler, the \"Sliver of Infinity,\" reigned with absolute power and ultimate terror, divinely invincible. Then, when hope was so long lost that not even its memory remained, a terribly scarred, heart-broken half-Skaa rediscovered it in the depths of the Lord Ruler's most hellish prison.   Kelsier \"snapped\" and found in himself the powers of a Mistborn. A brilliant thief and natural leader, he turned his talents to the ultimate caper, with the Lord Ruler himself as the mark. Kelsier recruited the underworld's elite, the smartest and most trustworthy allomancers, each of whom shares one of his many powers, and all of whom relish a high-stakes challenge. Only then does he reveal his ultimate dream, not just the greatest heist in history, but the downfall of the divine despot. But even with the best criminal crew ever assembled, Kel's plan looks more like the ultimate long shot, until luck brings a ragged girl named Vin into his life.   Like him, she's a half-Skaa orphan, but she's lived a much harsher life. Vin has learned to expect betrayal from everyone she meets, and gotten it. She will have to learn to trust, if Kel is to help her master powers of which she never dreamed.   This saga dares to ask a simple question: What if the hero of prophecy fails?",
       "ref": "https://a.co/d/b0SWBJD",
-      "id": 10
+      "id": 10,
+      "likeBtn": true
     },
     {
       "name": "The Way of Kings",
@@ -79,7 +87,8 @@
       "author": "Brandon Sanderson",
       "summary": "Roshar is a world of stone and storms. Uncanny tempests of incredible power sweep across the rocky terrain so frequently that they have shaped ecology and civilization alike. Animals hide in shells, trees pull in branches, and grass retracts into the soilless ground. Cities are built only where the topography offers shelter.  It has been centuries since the fall of the ten consecrated orders known as the Knights Radiant, but their Shardblades and Shardplate remain: mystical swords and suits of armor that transform ordinary men into near-invincible warriors. Men trade kingdoms for Shardblades. Wars were fought for them, and won by them.  One such war rages on a ruined landscape called the Shattered Plains. There, Kaladin, who traded his medical apprenticeship for a spear to protect his little brother, has been reduced to slavery. In a war that makes no sense, where ten armies fight separately against a single foe, he struggles to save his men and to fathom the leaders who consider them expendable.  Brightlord Dalinar Kholin commands one of those other armies. Like his brother, the late king, he is fascinated by an ancient text called The Way of Kings. Troubled by over-powering visions of ancient times and the Knights Radiant, he has begun to doubt his own sanity.  Across the ocean, an untried young woman named Shallan seeks to train under an eminent scholar and notorious heretic, Dalinar's niece, Jasnah. Though she genuinely loves learning, Shallan's motives are less than pure. As she plans a daring theft, her research for Jasnah hints at secrets of the Knights Radiant and the true cause of the war.",
       "ref": "https://a.co/d/ikReavo",
-      "id": 11
+      "id": 11,
+      "likeBtn": true
     },
     {
       "name": "Chronicles of the Black Company",
@@ -88,7 +97,8 @@
       "author": "Glen Cook",
       "summary": "Darkness wars with darkness as the hard-bitten men of the Black Company take their pay and do what they must. They bury their doubts with their dead.  Then comes the prophecy: The White Rose has been reborn, somewhere, to embody good once more…",
       "ref": "https://a.co/d/1GaBmmt",
-      "id": 12
+      "id": 12,
+      "likeBtn": true
     },
     {
       "name": "The Eye of the World",
@@ -97,7 +107,8 @@
       "author": "Robert Jordan, Brandon Sanderson",
       "summary": "The Wheel of Time turns and Ages come and pass, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth returns again. What was, what will be, and what is, may yet fall under the Shadow.  Moiraine Damodred arrives in Emond’s Field on a quest to find the one prophesized to stand against The Dark One, a malicious entity sowing the seeds of chaos and destruction. When a vicious band of half-men, half beasts invade the village seeking their master’s enemy, Moiraine persuades Rand al’Thor and his friends to leave their home and enter a larger unimaginable world filled with dangers waiting in the shadows and in the light.",
       "ref": "https://a.co/d/g7eO7rX",
-      "id": 13
+      "id": 13,
+      "likeBtn": true
     },
     {
       "name": "Malice",
@@ -106,7 +117,8 @@
       "author": "John Gwynne",
       "summary": "The first book in acclaimed epic fantasy author John Gwynne's Faithful and Fallen series, Malice is a tale of blind greed, ambition, and betrayal set in a world where ancient monsters are reawakening -- and a war to end all wars is about to begin.",
       "ref": "https://a.co/d/gpdXwdr",
-      "id": 14
+      "id": 14,
+      "likeBtn": true
     }
   ],
   "movies": [
@@ -117,7 +129,8 @@
       "keyword": "David Bowie, puppets, Jennifer Connelly",
       "director": "Jim Henson",
       "summary": "A young girl, who enters a world of her own creation, experiences her first awareness of love, responsibility and danger.",
-      "ref": "https://www.amazon.com/Labyrinth-Brian-Henson/dp/B008Y6ZK5C/ref=sr_1_1?keywords=The+Labyrinth&qid=1678116978&sr=8-1"
+      "ref": "https://www.amazon.com/Labyrinth-Brian-Henson/dp/B008Y6ZK5C/ref=sr_1_1?keywords=The+Labyrinth&qid=1678116978&sr=8-1",
+      "likeBtn": true
     },
     {
       "id": 2,
@@ -126,7 +139,8 @@
       "keyword": "The Lord of the Rings, my bow, my axe, Frodo, Sam",
       "director": "Peter Jackson",
       "summary": "In the first part, The Lord of the Rings, a shy young hobbit named Frodo Baggins inherits a simple gold ring that holds the secret to the survival--or enslavement--of the entire world.",
-      "ref": "https://www.amazon.com/gp/video/detail/B000YMH4CG/ref=atv_dp_share_cu_r"
+      "ref": "https://www.amazon.com/gp/video/detail/B000YMH4CG/ref=atv_dp_share_cu_r",
+      "likeBtn": true
     },
     {
       "id": 3,
@@ -135,7 +149,8 @@
       "keyword": "The Lord of the Rings, my bow, my axe, Frodo, Sam",
       "director": "Peter Jackson",
       "summary": "In the second part of the Tolkien trilogy, Frodo Baggins and the other members of the Fellowship continue on their sacred quest to destroy the One Ring--but on separate paths.",
-      "ref": "https://www.amazon.com/gp/video/detail/B0037WP83M/ref=atv_dp_share_cu_r"
+      "ref": "https://www.amazon.com/gp/video/detail/B0037WP83M/ref=atv_dp_share_cu_r",
+      "likeBtn": true
     },
     {
       "id": 4,
@@ -144,7 +159,8 @@
       "keyword": "The Lord of the Rings, my bow, my axe, Frodo, Sam",
       "director": "Peter Jackson",
       "summary": "In this extended edition of the epic conclusion of The Lord of the Rings trilogy, armies mass for a final battle that will decide the fate of the world.",
-      "ref": "https://www.amazon.com/gp/video/detail/B009ITL7UG/ref=atv_dp_share_cu_r"
+      "ref": "https://www.amazon.com/gp/video/detail/B009ITL7UG/ref=atv_dp_share_cu_r",
+      "likeBtn": true
     },
     {
       "name": "Star Wars: A New Hope",
@@ -153,7 +169,8 @@
       "keyword": "Luke Skywalker, Leia Organa, Han Solo, C3P0, r2-d2, Darth Vader, Chewbacca",
       "summary": "OG Star Wars",
       "ref": "https://www.amazon.com/gp/video/detail/B00VF06OBS/ref=atv_dp_share_cu_r",
-      "id": 5
+      "id": 5,
+      "likeBtn": true
     },
     {
       "name": "Star Wars: The Empire Strikes Back",
@@ -162,7 +179,8 @@
       "keyword": "Luke Skywalker, Leia Organa, Han Solo, C3P0, r2-d2, Darth Vader, Chewbacca",
       "summary": "The Best One",
       "ref": "https://www.amazon.com/gp/video/detail/B00VF19CBQ/ref=atv_dp_share_cu_r",
-      "id": 6
+      "id": 6,
+      "likeBtn": true
     },
     {
       "name": "The Fifth Element",
@@ -171,7 +189,8 @@
       "director": "Luc Besson",
       "summary": "Bruce Willis stars as Korben Dallas, a cab driver turned unlikely hero in this story about love and survival set in the 23rd century from writer-director Luc Besson. The dark force threatens humanity, and Korben and his new friend Leeloo must stop it.",
       "ref": "https://www.amazon.com/gp/video/detail/B000S6BKSC/ref=atv_dp_share_cu_r",
-      "id": 7
+      "id": 7,
+      "likeBtn": true
     },
     {
       "name": "The Princess Bride",
@@ -180,7 +199,8 @@
       "director": "Rob Reiner",
       "summary": "You've yet to hear the tale? Inconceivable! Join Westley (Carey Elwes) on his epic adventure to rescue the fair Buttercup (Robin Wright) from the clutches of the evil Prince Humperdinck (Chris Sarandon) in director Rob Reiner's delightful classic!",
       "ref": "https://www.amazon.com/gp/video/detail/B000VEPL2M/ref=atv_dp_share_cu_r",
-      "id": 8
+      "id": 8,
+      "likeBtn": true
     },
     {
       "name": "Serenity",
@@ -189,7 +209,8 @@
       "director": "Joss Whedon",
       "summary": "The crew of the ship Serenity (first introduced to fans in the beloved television series 'Firefly') tries to evade an assassin sent to recapture one of their members who is telepathic.",
       "ref": "https://www.amazon.com/gp/video/detail/B009CGDERO/ref=atv_dp_share_cu_r",
-      "id": 10
+      "id": 10,
+      "likeBtn": true
     },
     {
       "name": "Total Recall",
@@ -198,7 +219,8 @@
       "director": "Paul Verhoeven",
       "summary": "Haunted by a dream about a journey to Mars, Douglas Quaid gets a memory implant, but something goes awry when he remembers being a secret agent fighting against the evil Mars administrator",
       "ref": "https://www.amazon.com/gp/video/detail/B0B5LW6CSP/ref=atv_dp_share_cu_r",
-      "id": 11
+      "id": 11,
+      "likeBtn": true
     },
     {
       "name": "Underworld",
@@ -207,7 +229,8 @@
       "director": "Len Wiseman",
       "summary": "A beautiful Vampire caught up in an age-old battle falls in love with one of her enemies.",
       "ref": "https://www.amazon.com/gp/video/detail/B000O14VAU/ref=atv_dp_share_cu_r",
-      "id": 12
+      "id": 12,
+      "likeBtn": true
     },
     {
       "name": "The Neverending Story",
@@ -216,7 +239,8 @@
       "director": "Wolfgang Petersen",
       "summary": "A family fantasy/adventure epic based on the acclaimed best-seller about a troubled boy who discovers an extraordinary storybook-and the fantastical world within its pages.",
       "ref": "https://www.amazon.com/gp/video/detail/B000TA1JWO/ref=atv_dp_share_cu_r",
-      "id": 13
+      "id": 13,
+      "likeBtn": true
     }
   ],
   "games": [
@@ -227,7 +251,8 @@
       "developer": "CD Projekt Red",
       "summary": "Players control Geralt of Rivia, a monster slayer for hire known as a Witcher, and search for his adopted daughter, who is on the run from the otherworldly Wild Hunt.",
       "ref": "https://www.amazon.com/Witcher-Wild-Hunt-Complete-PlayStation-4/dp/B01K6010FM",
-      "id": 1
+      "id": 1,
+      "likeBtn": true
     },
     {
       "name": "Final Fantasy 7",
@@ -236,7 +261,8 @@
       "developer": "Square Enix",
       "summary": "Cloud is schizophrenic",
       "ref": "https://www.amazon.com/Final-Fantasy-VII-Remake-PlayStation-4/dp/B00ZS80PC2",
-      "id": 2
+      "id": 2,
+      "likeBtn": true
     },
     {
       "name": "Horizon Zero Dawn",
@@ -245,7 +271,8 @@
       "developer": "Guerrilla Games",
       "summary": "Ashley Burch is in a dystopian future",
       "ref": "https://www.amazon.com/Horizon-Zero-Dawn-Complete-PlayStation-4/dp/B076BJ723V",
-      "id": 3
+      "id": 3,
+      "likeBtn": true
     },
     {
       "name": "God of War",
@@ -254,7 +281,8 @@
       "developer": "Santa Monica Studio",
       "summary": "BOY",
       "ref": "https://a.co/d/b906x2J",
-      "id": 4
+      "id": 4,
+      "likeBtn": true
     },
     {
       "name": "Skyrim",
@@ -263,7 +291,8 @@
       "developer": "Bethesda",
       "summary": "Hey You, you're finally awake.",
       "ref": "https://a.co/d/etgjRWN",
-      "id": 5
+      "id": 5,
+      "likeBtn": true
     },
     {
       "name": "Fallout 4",
@@ -272,7 +301,8 @@
       "developer": "Bethesda",
       "summary": "Stay in your vaults",
       "ref": "https://a.co/d/87G6hVP",
-      "id": 6
+      "id": 6,
+      "likeBtn": true
     },
     {
       "name": "Borderlands",
@@ -281,7 +311,8 @@
       "developer": "Gearbox",
       "summary": "Vault Hunter",
       "ref": "https://a.co/d/6TccBN4",
-      "id": 7
+      "id": 7,
+      "likeBtn": true
     },
     {
       "name": "Xcom 2",
@@ -290,7 +321,8 @@
       "developer": "Fireaxis, 2k Games",
       "summary": "Aliens",
       "ref": "https://a.co/d/gRDQlPw",
-      "id": 8
+      "id": 8,
+      "likeBtn": true
     },
     {
       "name": "Mechwarrior 5: Mercenaries",
@@ -299,7 +331,8 @@
       "developer": "Piranha Games",
       "summary": "Big robot go brr",
       "ref": "https://a.co/d/gFA4RoY",
-      "id": 9
+      "id": 9,
+      "likeBtn": true
     },
     {
       "name": "Monster Hunter Rise",
@@ -308,7 +341,8 @@
       "developer": "Capcom",
       "summary": "Hunt big Dino",
       "ref": "https://a.co/d/aSg5O33",
-      "id": 10
+      "id": 10,
+      "likeBtn": true
     },
     {
       "name": "Star Wars Battlefront II",
@@ -317,7 +351,8 @@
       "developer": "EA Games",
       "summary": "Battlefield but reskinned as Star Wars",
       "ref": "https://a.co/d/1AUCeh1",
-      "id": 11
+      "id": 11,
+      "likeBtn": true
     },
     {
       "name": "Spider-Man: Miles Morales",
@@ -326,7 +361,8 @@
       "developer": "Insomniac",
       "summary": "The better Spidey",
       "ref": "https://a.co/d/dDCHGgK",
-      "id": 12
+      "id": 12,
+      "likeBtn": true
     }
   ]
 }

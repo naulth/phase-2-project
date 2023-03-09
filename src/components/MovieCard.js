@@ -8,12 +8,23 @@ import { HeartFill } from 'react-bootstrap-icons';
 import MovieDeleteModal from './MovieDeleteModal';
 
 
-function MovieCards({movieName, movieImg, movieSummary, movieRef, movieId, deleteMovie, movieDirector}){
+function MovieCards({movieName, movieImg, movieSummary, movieRef, movieId, deleteMovie, movieDirector, likeBtn}){
 
-    const[showLike, setShowLike] = useState(true)
+    const[showLike, setShowLike] = useState(likeBtn)
+
     const handleLike = () => {
         setShowLike(showLike => !showLike)
+        fetch(`http://localhost:3000/movies/${movieId}` , {
+	        method: "PATCH",
+	        headers: {
+		        "Content-Type": "application/json",
+	        },
+		    body: JSON.stringify({
+                likeBtn: !showLike
+            })
+	    })
     }
+
 
     return (
             <Card style={{ width: '14rem' }} className='bg-dark border-light rounded' >
