@@ -4,7 +4,6 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 
 function AddBookForm({addBook, handleHideBookForm}) {
-
     const [name, setName] = useState('')
     const [thumbnail, setThumbnail] = useState('')
     const [keyword, setKeyword] = useState('')

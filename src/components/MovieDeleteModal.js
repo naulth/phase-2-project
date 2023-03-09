@@ -24,7 +24,7 @@ function MovieDeleteModal({movieId, deleteMovie}){
     return(
         <>
         <Button className="modalButton" variant="primary" onClick={handleShow}>
-        🗑️
+        <span role="img" aria-labelledby="waste-basket">🗑️</span>
         </Button>
   
         <Modal size="lg" aria-labelledby="contained-modal-title-vcenter" centered show={show} 
