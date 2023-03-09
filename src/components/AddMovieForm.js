@@ -62,6 +62,7 @@ function AddMovieForm({addMovie, handleHideMovieForm}) {
         <Button className="add-button" type="submit">
           Add A Movie
         </Button>
+        <Button className="add-button" onClick={handleHideMovieForm}>Close Form</Button>
       </Form>
     )
 }

@@ -62,6 +62,7 @@ function AddBookForm({addBook, handleHideBookForm}) {
         <Button className="add-button" type="submit">
           Add A Book
         </Button>
+        <Button className="add-button" onClick={handleHideBookForm}>Close Form</Button>
       </Form>
     )
 }

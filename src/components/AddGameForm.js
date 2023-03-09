@@ -62,6 +62,7 @@ function AddGameForm({addGame, handleHideGameForm}) {
         <Button className="add-button" type="submit">
           Add A Game
         </Button>
+        <Button className="add-button" onClick={handleHideGameForm}>Close Form</Button>
       </Form>
     )
 }
