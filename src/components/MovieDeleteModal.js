@@ -9,13 +9,16 @@ function MovieDeleteModal({movieId, deleteMovie}){
     const [show, setShow] = useState(false);
     const handleClose = () => {
         setShow(false)
-        deleteMovie(movieId)
-
-        fetch(`http://localhost:3000/movies/${movieId}`,{
-          method: 'DELETE'
-        })
-        
     };
+
+    const handleDelete = () => {
+      deleteMovie(movieId)
+
+      fetch(`http://localhost:3000/movies/${movieId}`,{
+        method: 'DELETE'
+      })
+    }
+
     const handleShow = () => setShow(true);
 
     return(
@@ -34,7 +37,7 @@ function MovieDeleteModal({movieId, deleteMovie}){
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
-            <Button variant="primary" onClick={handleClose}>
+            <Button variant="primary" onClick={handleDelete}>
               Delete
             </Button>
           </Modal.Footer>

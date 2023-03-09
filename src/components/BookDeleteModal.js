@@ -9,13 +9,18 @@ function BookDeleteModal({bookId, deleteBook}){
     const [show, setShow] = useState(false);
     const handleClose = () => {
         setShow(false)
-        deleteBook(bookId)
-
-        fetch(`http://localhost:3000/books/${bookId}`,{
-          method: 'DELETE'
-        })
+        
         
     };
+
+    const handleDelete = () => {
+      deleteBook(bookId)
+
+      fetch(`http://localhost:3000/books/${bookId}`,{
+        method: 'DELETE'
+      })
+    }
+
     const handleShow = () => setShow(true);
 
     return(
@@ -34,7 +39,7 @@ function BookDeleteModal({bookId, deleteBook}){
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
-            <Button variant="primary" onClick={handleClose}>
+            <Button variant="primary" onClick={handleDelete}>
               Delete
             </Button>
           </Modal.Footer>
