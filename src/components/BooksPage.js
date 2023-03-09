@@ -30,7 +30,7 @@ function BooksPage({booksArray, addBook, changeSearch, deleteBook}){
                 </div>
             
             </div>
-            <div>
+            <div className="carddiv">
                 <CardGroup className='grid-container'>
                     {booksComponents}
                 </CardGroup>

@@ -23,7 +23,7 @@ function MovieCards({movieName, movieImg, movieSummary, movieRef, movieId, delet
                     <Button onClick={handleLike} variant='pink'>
                         {showLike ? <Heart color='pink'/> : <HeartFill color="pink" /> }
                     </Button>
-                    <Card.Title>{movieName}</Card.Title>
+                    <Card.Title className="cardtitle">{movieName}</Card.Title>
                 </Card.Body>
             </Card>
     );

@@ -25,7 +25,7 @@ function BookCards({bookName, bookImg, bookSummary, bookRef, bookId, deleteBook}
                     <Button onClick={handleLike} variant='pink'>
                         {showLike ? <Heart color='pink'/> : <HeartFill color="pink" /> }
                     </Button>
-                    <Card.Title>{bookName}</Card.Title>
+                    <Card.Title className="cardtitle">{bookName}</Card.Title>
                     
                     
                 </Card.Body>

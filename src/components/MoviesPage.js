@@ -32,7 +32,7 @@ function MoviesPage({moviesArray, addMovie, changeSearch, deleteMovie}){
                     {hideMovieForm ? <FormButton handleHideMovieForm={handleHideMovieForm} className="hideFormButton" /> : <AddMovieForm addMovie={addMovie} handleHideMovieForm={handleHideMovieForm}/>}
                 </div>
             </div>
-            <div>
+            <div className="carddiv">
                 <CardGroup className='grid-container'>
                     {moviesComponents}
                 </CardGroup>

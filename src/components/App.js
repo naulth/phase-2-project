@@ -83,8 +83,8 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <NavBar />
+      <header>
+        <NavBar className="App-header"/>
           <Switch>
             <Route path="/movies">
               <MoviesPage changeSearch={changeSearch} addMovie={addMovie} moviesArray={searchedMovies} deleteMovie={deleteMovie}/>
@@ -93,7 +93,7 @@ function App() {
               <BooksPage changeSearch={changeSearch} addBook={addBook} booksArray={searchedBooks} deleteBook={deleteBook}/>
             </Route>
             <Route exact path="/">
-              <Home />
+              <Home className="App-header"/>
             </Route>
             <Route path="*">
               <h1>404 Not Found</h1>
