@@ -255,6 +255,78 @@
       "summary": "BOY",
       "ref": "https://a.co/d/b906x2J",
       "id": 4
+    },
+    {
+      "name": "Skyrim",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png",
+      "keyword": "Elder Scrolls",
+      "developer": "Bethesda",
+      "summary": "Hey You, you're finally awake.",
+      "ref": "https://a.co/d/etgjRWN",
+      "id": 5
+    },
+    {
+      "name": "Fallout 4",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Fallout_4_cover_art.jpg/220px-Fallout_4_cover_art.jpg",
+      "keyword": "Post Apocalyptic, Dystopian, nuke, radiation, pip-boy",
+      "developer": "Bethesda",
+      "summary": "Stay in your vaults",
+      "ref": "https://a.co/d/87G6hVP",
+      "id": 6
+    },
+    {
+      "name": "Borderlands",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/01/Borderlandscover.jpg",
+      "keyword": "Scooter, Catch-a-Ride",
+      "developer": "Gearbox",
+      "summary": "Vault Hunter",
+      "ref": "https://a.co/d/6TccBN4",
+      "id": 7
+    },
+    {
+      "name": "Xcom 2",
+      "thumbnail": "https://cdn.cdkeys.com/240x300/media/catalog/product/x/c/xcom2-cover.jpg",
+      "keyword": "Aliens",
+      "developer": "Fireaxis, 2k Games",
+      "summary": "Aliens",
+      "ref": "https://a.co/d/gRDQlPw",
+      "id": 8
+    },
+    {
+      "name": "Mechwarrior 5: Mercenaries",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/MechWarrior_5_cover_art.jpg/220px-MechWarrior_5_cover_art.jpg",
+      "keyword": "Battletech, mechs",
+      "developer": "Piranha Games",
+      "summary": "Big robot go brr",
+      "ref": "https://a.co/d/gFA4RoY",
+      "id": 9
+    },
+    {
+      "name": "Monster Hunter Rise",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAemshK9Q915IzeytY40mArS2O7Pd-s2x7V8qyNJXfTaa5UcY-pfQTa_xsFH15FTzkxTM&usqp=CAU",
+      "keyword": "Monster Hunter",
+      "developer": "Capcom",
+      "summary": "Hunt big Dino",
+      "ref": "https://a.co/d/aSg5O33",
+      "id": 10
+    },
+    {
+      "name": "Star Wars Battlefront II",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/2/23/SWBF2_box.jpeg",
+      "keyword": "Darth Maul, Darth Vader, Boba Fett, Yoda, Luke, Han Solo, Lando Calrissian",
+      "developer": "EA Games",
+      "summary": "Battlefield but reskinned as Star Wars",
+      "ref": "https://a.co/d/1AUCeh1",
+      "id": 11
+    },
+    {
+      "name": "Spider-Man: Miles Morales",
+      "thumbnail": "https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/PRfYtTZQsuj3ALrBXGL8MjAH.jpg",
+      "keyword": "Spidey, web-slinger, New York",
+      "developer": "Insomniac",
+      "summary": "The better Spidey",
+      "ref": "https://a.co/d/dDCHGgK",
+      "id": 12
     }
   ]
 }
