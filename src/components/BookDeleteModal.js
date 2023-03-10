@@ -5,7 +5,9 @@ import '../index.css'
 
 
 function BookDeleteModal({bookId, deleteBook}){
-    
+
+	// setting state to show and hide modal. as well as handling the deletion of the obj from the database
+
     const [show, setShow] = useState(false);
 
     const handleClose = () => {
@@ -13,11 +15,11 @@ function BookDeleteModal({bookId, deleteBook}){
     };
 
     const handleDelete = () => {
-      deleteBook(bookId)
+        deleteBook(bookId)
 
-      fetch(`http://localhost:3000/books/${bookId}`,{
+        fetch(`http://localhost:3000/books/${bookId}`,{
         method: 'DELETE'
-      })
+        })
     }
 
     const handleShow = () => setShow(true);
@@ -27,9 +29,7 @@ function BookDeleteModal({bookId, deleteBook}){
             <Button className="modalButton" variant="primary" onClick={handleShow}>
                 <span role="img" aria-labelledby="waste-basket">🗑️</span>
             </Button>
-  
-            <Modal size="lg" aria-labelledby="contained-modal-title-vcenter" centered show={show} 
-            onHide={handleClose}>
+            <Modal size="lg" aria-labelledby="contained-modal-title-vcenter" centered show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>Delete</Modal.Title>
                 </Modal.Header>

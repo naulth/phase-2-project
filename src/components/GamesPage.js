@@ -7,8 +7,12 @@ import SearchGames from './SearchGames';
 
 
 function GamesPage({gamesArray, addGame, changeSearch, deleteGame, likeGame}){
-    
+
+    // Mapping out our array and sending it in its own Cards component
+
     const gamesComponents = gamesArray.map(game => <GameCards key={game.id} gameId={game.id} gameDeveloper={game.developer} gameName={game.name} gameImg={game.thumbnail} gameSummary={game.summary} gameRef={game.ref} deleteGame={deleteGame} likeBtn={game.likeBtn} likeGame={likeGame}/>)
+
+    // Setting state for hiding our form
 
     const [hideGameForm, setHideGameForm] = useState(true)
     const handleHideGameForm = () => {

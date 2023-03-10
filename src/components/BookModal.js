@@ -5,10 +5,14 @@ import '../index.css'
 
 
 function BookModal({bookRef, bookSummary, bookName, bookAuthor}){
-    
+
+    //  Setting states for the modal to show and hide
+
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    // We are returning a completed modal with added information of the name, summary, and creator/s of the object as well as an outside link to Amazon to get your own version of the product.
 
     return(
         <>

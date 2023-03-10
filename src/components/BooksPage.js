@@ -5,9 +5,14 @@ import AddBookForm from './AddBookForm'
 import '../index.css';
 import SearchBooks from './SearchBooks'
 
+
 function BooksPage({booksArray, addBook, changeSearch, deleteBook, likeBook}){
-    
+
+    // Mapping out our array and sending it in its own Cards component
+
     const booksComponents = booksArray.map(book => <BookCards key={book.id} bookId={book.id} bookName={book.name} bookImg={book.thumbnail} bookAuthor={book.author}bookSummary={book.summary} bookRef={book.ref} deleteBook={deleteBook} likeBtn={book.likeBtn} likeBook={likeBook}/>)
+
+    // Setting state for hiding our form
 
     const [hideBookForm, setHideBookForm] = useState(true)
     const handleHideBookForm = () => {

@@ -5,18 +5,21 @@ import '../index.css'
 
 
 function GameDeleteModal({gameId, deleteGame}){
-    
+
+    // setting state to show and hide modal. as well as handling the deletion of the obj from the database
+
     const [show, setShow] = useState(false);
+
     const handleClose = () => {
         setShow(false)
     };
 
     const handleDelete = () => {
-      deleteGame(gameId)
+        deleteGame(gameId)
 
-      fetch(`http://localhost:3000/games/${gameId}`,{
+        fetch(`http://localhost:3000/games/${gameId}`,{
         method: 'DELETE'
-      })
+        })
     }
 
     const handleShow = () => setShow(true);
@@ -26,8 +29,7 @@ function GameDeleteModal({gameId, deleteGame}){
             <Button className="modalButton" variant="primary" onClick={handleShow}>
                 <span role="img" aria-labelledby="waste-basket">🗑️</span>
             </Button>
-            <Modal size="lg" aria-labelledby="contained-modal-title-vcenter" centered show={show} 
-            onHide={handleClose}>
+            <Modal size="lg" aria-labelledby="contained-modal-title-vcenter" centered show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>Delete</Modal.Title>
                 </Modal.Header>

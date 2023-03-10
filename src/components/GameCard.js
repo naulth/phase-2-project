@@ -7,22 +7,27 @@ import { HeartFill } from 'react-bootstrap-icons';
 import GameModal from './GameModal.js'
 import GameDeleteModal from './GameDeleteModal'
 
+
 function GameCards({gameName, gameImg, gameSummary, gameRef, gameId, deleteGame,gameDeveloper, likeBtn, likeGame}){
-    
+
+    // Handler for our like button its patch request. Inverse dataflow
 
     const handleLike = () => {
+
         likeGame(gameId, likeBtn)
         
         fetch(`http://localhost:3000/games/${gameId}` , {
-	        method: "PATCH",
-	        headers: {
-		        "Content-Type": "application/json",
-	        },
-		    body: JSON.stringify({
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
                 likeBtn: !likeBtn
             })
-	    })
+        })
     }
+
+    // We are returning the basic layout and functionality of our card. As well as passing more data down to our modals.
 
     return (
         <Card style={{width: '14rem'}} className='bg-dark border-light rounded' >

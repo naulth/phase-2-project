@@ -10,6 +10,8 @@ import GamesPage from "./GamesPage"
 
 function App() {
 
+    // UseStates for Array iteration
+
     const [booksArray, setBooksArray] = useState([])
 
     useEffect(() => {
@@ -34,6 +36,8 @@ function App() {
             .then(setGamesArray)
     },[])
 
+    // States for adding new Objects to the array
+
     const addMovie = (newMovieObj) => {
         setMoviesArray([...moviesArray, newMovieObj])
     }
@@ -45,6 +49,8 @@ function App() {
     const addGame = (newGameObj) => {
         setGamesArray([...gamesArray, newGameObj])
     }
+
+    // UseStates for searach functionality
 
     const [search, setSearch] = useState('')
 
@@ -77,7 +83,9 @@ function App() {
         return true
         }
     }
-  
+
+    // Creating Search variants for the seperate catagories
+
     const bookSearch = book => {
         return byName(book) || byAuthor(book) || byKeyword(book)
     }
@@ -98,6 +106,7 @@ function App() {
 
     const changeSearch = newSearch => setSearch( newSearch.toLowerCase() )
 
+    // Delete Filters
 
     const deleteBook = (doomedId) => {
         setBooksArray(booksArray.filter(book => book.id !== doomedId))
@@ -110,6 +119,8 @@ function App() {
     const deleteGame = (doomedId) => {
         setGamesArray(gamesArray.filter(game => game.id !== doomedId))
     }
+
+    // Settings States for our like buttons. INVERSE DATAFLOW YIKES
 
     const likeGame = (likedId, likeBtn) => {
 
@@ -144,25 +155,27 @@ function App() {
         setBooksArray( newBooksArray )
     }
 
+    // We are returning our overall setup and dataflow structure for our project as well as setting all of our routes.
+
     return (
         <div className="App">
             <header>
                 <NavBar className="App-header"/>
                 <Switch>
                     <Route path="/movies">
-                    <MoviesPage changeSearch={changeSearch} addMovie={addMovie} moviesArray={searchedMovies} deleteMovie={deleteMovie} likeMovie={likeMovie}/>
+                        <MoviesPage changeSearch={changeSearch} addMovie={addMovie} moviesArray={searchedMovies} deleteMovie={deleteMovie} likeMovie={likeMovie}/>
                     </Route>
                     <Route path="/books">
-                    <BooksPage changeSearch={changeSearch} addBook={addBook} booksArray={searchedBooks} deleteBook={deleteBook} likeBook={likeBook}/>
+                        <BooksPage changeSearch={changeSearch} addBook={addBook} booksArray={searchedBooks} deleteBook={deleteBook} likeBook={likeBook}/>
                     </Route>
                     <Route path="/games">
-                    <GamesPage changeSearch={changeSearch} addGame={addGame} gamesArray={searchedGames} deleteGame={deleteGame} likeGame={likeGame}/>
+                        <GamesPage changeSearch={changeSearch} addGame={addGame} gamesArray={searchedGames} deleteGame={deleteGame} likeGame={likeGame}/>
                     </Route>
                     <Route exact path="/">
-                    <Home className="App-header"/>
+                        <Home className="App-header"/>
                     </Route>
                     <Route path="*">
-                    <h1>404 Not Found</h1>
+                        <h1>404 Not Found</h1>
                     </Route>
                 </Switch>
             </header>
