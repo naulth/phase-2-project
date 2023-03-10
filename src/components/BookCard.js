@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import '../index.css'
@@ -7,19 +7,20 @@ import { HeartFill } from 'react-bootstrap-icons';
 import BookModal from './BookModal'
 import BookDeleteModal from './BookDeleteModal'
 
-function BookCards({bookName, bookImg, bookSummary, bookRef, bookId, deleteBook, bookAuthor, likeBtn}){
+function BookCards({bookName, bookImg, bookSummary, bookRef, bookId, deleteBook, bookAuthor, likeBtn, likeBook}){
     
-    const[showLike, setShowLike] = useState(likeBtn)
 
     const handleLike = () => {
-        setShowLike(showLike => !showLike)
+       
+        likeBook(bookId, likeBtn)
+
         fetch(`http://localhost:3000/books/${bookId}` , {
 	        method: "PATCH",
 	        headers: {
 		        "Content-Type": "application/json",
 	        },
 		    body: JSON.stringify({
-                likeBtn: !showLike
+                likeBtn: !likeBtn
             })
 	    })
     }
@@ -31,7 +32,7 @@ function BookCards({bookName, bookImg, bookSummary, bookRef, bookId, deleteBook,
                 <BookModal bookAuthor={bookAuthor} bookSummary={bookSummary} bookRef={bookRef} bookName={bookName}/>
                 <BookDeleteModal bookId={bookId} deleteBook={deleteBook}/>
                 <Button onClick={handleLike} variant='pink'>
-                    {showLike ? <Heart color='pink'/> : <HeartFill color="pink" /> }
+                    {likeBtn ? <Heart color='pink'/> : <HeartFill color="pink" /> }
                 </Button>
                 <Card.Title className="cardtitle">{bookName}</Card.Title>
             </Card.Body>

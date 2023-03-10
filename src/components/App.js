@@ -111,19 +111,52 @@ function App() {
         setGamesArray(gamesArray.filter(game => game.id !== doomedId))
     }
 
+    const likeGame = (likedId, likeBtn) => {
+
+        const newGamesArray = [...gamesArray]
+
+        const gameIndex = newGamesArray.findIndex(game => game.id === likedId)
+
+        newGamesArray[ gameIndex].likeBtn = !likeBtn
+
+        setGamesArray( newGamesArray )
+    }
+
+    const likeMovie = (likedId, likeBtn) => {
+
+        const newMoviesArray = [...moviesArray]
+
+        const movieIndex = newMoviesArray.findIndex(movie => movie.id === likedId)
+
+        newMoviesArray[ movieIndex].likeBtn = !likeBtn
+
+        setMoviesArray( newMoviesArray )
+    }
+
+    const likeBook = (likedId, likeBtn) => {
+
+        const newBooksArray = [...booksArray]
+
+        const bookIndex = newBooksArray.findIndex(book => book.id === likedId)
+
+        newBooksArray[ bookIndex].likeBtn = !likeBtn
+
+        setBooksArray( newBooksArray )
+    }
+
     return (
         <div className="App">
             <header>
                 <NavBar className="App-header"/>
                 <Switch>
                     <Route path="/movies">
-                    <MoviesPage changeSearch={changeSearch} addMovie={addMovie} moviesArray={searchedMovies} deleteMovie={deleteMovie}/>
+                    <MoviesPage changeSearch={changeSearch} addMovie={addMovie} moviesArray={searchedMovies} deleteMovie={deleteMovie} likeMovie={likeMovie}/>
                     </Route>
                     <Route path="/books">
-                    <BooksPage changeSearch={changeSearch} addBook={addBook} booksArray={searchedBooks} deleteBook={deleteBook}/>
+                    <BooksPage changeSearch={changeSearch} addBook={addBook} booksArray={searchedBooks} deleteBook={deleteBook} likeBook={likeBook}/>
                     </Route>
                     <Route path="/games">
-                    <GamesPage changeSearch={changeSearch} addGame={addGame} gamesArray={searchedGames} deleteGame={deleteGame}/>
+                    <GamesPage changeSearch={changeSearch} addGame={addGame} gamesArray={searchedGames} deleteGame={deleteGame} likeGame={likeGame}/>
                     </Route>
                     <Route exact path="/">
                     <Home className="App-header"/>

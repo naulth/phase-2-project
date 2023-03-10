@@ -6,9 +6,9 @@ import '../index.css';
 import SearchGames from './SearchGames';
 
 
-function GamesPage({gamesArray, addGame, changeSearch, deleteGame}){
+function GamesPage({gamesArray, addGame, changeSearch, deleteGame, likeGame}){
     
-    const gamesComponents = gamesArray.map(game => <GameCards key={game.id} gameId={game.id} gameDeveloper={game.developer} gameName={game.name} gameImg={game.thumbnail} gameSummary={game.summary} gameRef={game.ref} deleteGame={deleteGame} likeBtn={game.likeBtn}/>)
+    const gamesComponents = gamesArray.map(game => <GameCards key={game.id} gameId={game.id} gameDeveloper={game.developer} gameName={game.name} gameImg={game.thumbnail} gameSummary={game.summary} gameRef={game.ref} deleteGame={deleteGame} likeBtn={game.likeBtn} likeGame={likeGame}/>)
 
     const [hideGameForm, setHideGameForm] = useState(true)
     const handleHideGameForm = () => {

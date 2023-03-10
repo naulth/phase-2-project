@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import '../index.css'
@@ -8,19 +8,20 @@ import { HeartFill } from 'react-bootstrap-icons';
 import MovieDeleteModal from './MovieDeleteModal';
 
 
-function MovieCards({movieName, movieImg, movieSummary, movieRef, movieId, deleteMovie, movieDirector, likeBtn}){
+function MovieCards({movieName, movieImg, movieSummary, movieRef, movieId, deleteMovie, movieDirector, likeBtn, likeMovie}){
 
-    const[showLike, setShowLike] = useState(likeBtn)
 
     const handleLike = () => {
-        setShowLike(showLike => !showLike)
+
+        likeMovie(movieId, likeBtn)
+
         fetch(`http://localhost:3000/movies/${movieId}` , {
 	        method: "PATCH",
 	        headers: {
 		        "Content-Type": "application/json",
 	        },
 		    body: JSON.stringify({
-                likeBtn: !showLike
+                likeBtn: !likeBtn
             })
 	    })
     }
@@ -32,7 +33,7 @@ function MovieCards({movieName, movieImg, movieSummary, movieRef, movieId, delet
                 <MovieModal movieSummary={movieSummary} movieRef={movieRef} movieName={movieName} movieDirector={movieDirector}/>
                 <MovieDeleteModal movieId={movieId} deleteMovie={deleteMovie} />
                 <Button onClick={handleLike} variant='pink'>
-                    {showLike ? <Heart color='pink'/> : <HeartFill color="pink" /> }
+                    {likeBtn ? <Heart color='pink'/> : <HeartFill color="pink" /> }
                 </Button>
                 <Card.Title className="cardtitle">{movieName}</Card.Title>
             </Card.Body>
