@@ -28,7 +28,8 @@ function AddGameForm({addGame, handleHideGameForm}) {
             keyword: keyword,
             developer: developer,
             summary: summary,
-            ref: ref
+            ref: ref,
+            likeBtn: true
         }
 
         addGame(newGame)

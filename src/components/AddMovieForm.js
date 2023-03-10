@@ -28,7 +28,8 @@ function AddMovieForm({addMovie, handleHideMovieForm}) {
             keyword: keyword,
             director: director,
             summary: summary,
-            ref: ref
+            ref: ref,
+            likeBtn: true
         }
 
         addMovie(newMovie)

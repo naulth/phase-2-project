@@ -27,7 +27,8 @@ function AddBookForm({addBook, handleHideBookForm}) {
             keyword: keyword,
             author: author,
             summary: summary,
-            ref: ref
+            ref: ref,
+            likeBtn: true
         }
 
         addBook(newBook)
